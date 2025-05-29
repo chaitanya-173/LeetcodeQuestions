@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0018-4sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0027-remove-element) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 ## Bit Manipulation
 |  |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0169-majority-element) |
 ## Counting
