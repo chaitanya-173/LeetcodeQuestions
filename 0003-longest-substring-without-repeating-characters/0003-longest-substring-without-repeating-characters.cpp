@@ -3,17 +3,15 @@ public:
     int lengthOfLongestSubstring(string s) {
         int n = s.length();
         int maxLength = 0;
-        unordered_map<char, int> charMap;
+        vector<int> charIndex(128, -1);
         int left = 0;
         
         for (int right = 0; right < n; right++) {
-            if (charMap.count(s[right]) == 0 || charMap[s[right]] < left) {
-                charMap[s[right]] = right;
-                maxLength = max(maxLength, right - left + 1);
-            } else {
-                left = charMap[s[right]] + 1;
-                charMap[s[right]] = right;
+            if (charIndex[s[right]] >= left) {
+                left = charIndex[s[right]] + 1;
             }
+            charIndex[s[right]] = right;
+            maxLength = max(maxLength, right - left + 1);
         }
         
         return maxLength;
