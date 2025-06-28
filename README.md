@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0027-remove-element) |
+| [0031-next-permutation](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0031-next-permutation) |
 | [0037-sudoku-solver](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0037-sudoku-solver) |
 | [0053-maximum-subarray](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0075-sort-colors) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0031-next-permutation](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0283-move-zeroes) |
