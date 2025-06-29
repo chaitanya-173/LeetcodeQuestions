@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0031-next-permutation) |
 | [0037-sudoku-solver](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0075-sort-colors) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0012-integer-to-roman) |
+| [0048-rotate-image](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 ## Two Pointers
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0073-set-matrix-zeroes) |
 ## Sliding Window
 |  |
