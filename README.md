@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0075-sort-colors) |
+| [0151-reverse-words-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0283-move-zeroes) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0012-integer-to-roman) |
 | [0022-generate-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0151-reverse-words-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0151-reverse-words-in-a-string) |
 ## String Matching
 |  |
 | ------- |
