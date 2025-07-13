@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
 ## Math
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0169-majority-element) |
+| [0242-valid-anagram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 ## Linked List
 |  |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0242-valid-anagram) |
 | [0812-rotate-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0812-rotate-string) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 ## String Matching
