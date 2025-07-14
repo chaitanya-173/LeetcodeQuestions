@@ -1,15 +1,11 @@
 class Solution {
 public:
-    string removeOuterParentheses(string s) {
+    string removeOuterParentheses(string S) {
         string res;
-        int balance = 0, start = 0;
-        for (int i = 0; i < s.length(); ++i) {
-            if (s[i] == '(') balance++;
-            else balance--;
-            if (balance == 0) {
-                res += s.substr(start + 1, i - start - 1);
-                start = i + 1;
-            }
+        int opened = 0;
+        for (char c : S) {
+            if (c == '(' && opened++ > 0) res += c;
+            if (c == ')' && opened-- > 1) res += c;
         }
         return res;
     }
