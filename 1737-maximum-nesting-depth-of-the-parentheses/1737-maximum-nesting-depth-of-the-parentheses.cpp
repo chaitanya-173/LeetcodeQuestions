@@ -5,10 +5,10 @@ public:
         int maxi = 0;
         for(int i=0; i<s.length(); i++) {
             if(s[i] == '(') {
-                balance++;
-                maxi = max(maxi, balance);
+                balance++;   
             }
             if(s[i] == ')') {
+                maxi = max(maxi, balance);
                 balance--;
             }
         }
