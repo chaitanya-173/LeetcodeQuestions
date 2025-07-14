@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 | [0812-rotate-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1078-remove-outermost-parentheses) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 ## String Matching
 |  |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1078-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1078-remove-outermost-parentheses) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
