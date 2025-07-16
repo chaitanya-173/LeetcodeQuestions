@@ -1,38 +1,29 @@
 class Solution {
 public:
-    std::string longestPalindrome(std::string s) {
-        if (s.length() <= 1) {
-            return s;
+
+    bool isPalindrome(string s, int i, int j) {
+        while(i <= j) {
+            if(s[i++] != s[j--]) return false;
         }
-        
-        int maxLen = 1;
-        std::string maxStr = s.substr(0, 1);
-        s = "#" + std::regex_replace(s, std::regex(""), "#") + "#";
-        std::vector<int> dp(s.length(), 0);
-        int center = 0;
-        int right = 0;
-        
-        for (int i = 0; i < s.length(); ++i) {
-            if (i < right) {
-                dp[i] = std::min(right - i, dp[2 * center - i]);
-            }
-            
-            while (i - dp[i] - 1 >= 0 && i + dp[i] + 1 < s.length() && s[i - dp[i] - 1] == s[i + dp[i] + 1]) {
-                dp[i]++;
-            }
-            
-            if (i + dp[i] > right) {
-                center = i;
-                right = i + dp[i];
-            }
-            
-            if (dp[i] > maxLen) {
-                maxLen = dp[i];
-                maxStr = s.substr(i - dp[i], 2 * dp[i] + 1);
-                maxStr.erase(std::remove(maxStr.begin(), maxStr.end(), '#'), maxStr.end());
+        return true;
+    }
+
+    string longestPalindrome(string s) {
+        int n = s.length();
+        int maxi = 0;
+        int index = 0;
+        for(int i=0; i<n; i++) {
+            for(int j=i; j<n; j++) {
+                if(s[i] == s[j]) {
+                    if(isPalindrome(s, i, j)) {
+                        if(j-i+1 > maxi) {
+                            maxi = j-i+1;
+                            index = i;
+                        }
+                    }
+                }
             }
         }
-        
-        return maxStr;
+        return s.substr(index, maxi);
     }
 };
