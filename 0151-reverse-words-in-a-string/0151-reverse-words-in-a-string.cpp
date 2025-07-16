@@ -16,9 +16,6 @@ public:
             if(!words.empty()) ans += " ";
         }
 
-
-        
-
         return ans;
     }
 };
