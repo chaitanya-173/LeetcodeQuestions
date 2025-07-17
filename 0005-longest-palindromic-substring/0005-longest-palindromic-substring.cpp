@@ -1,34 +1,36 @@
 class Solution {
 public:
-    string longestPalindrome(string s) {
+    // Expand from given center [left, right]; update bestStart/bestLen if longer palindrome found.
+    void expandAroundCenter(const string &s, int left, int right,
+                            int &bestStart, int &bestLen) {
         int n = s.size();
-        if (n <= 1) return s; // agar string size 0 ya 1 hai, wahi palindrome hai
 
-        int start = 0;  // best palindrome ka starting index
-        int maxLen = 1; // ab tak ka longest palindrome length
-
-        // Helper function to expand around center
-        auto expandAroundCenter = [&](int left, int right) {
-            // Jab tak left aur right valid hai aur same char hai, expand karo
-            while (left >= 0 && right < n && s[left] == s[right]) {
-                left--;
-                right++;
-            }
-            // Loop khatam hote hi, left aur right ek extra step bahar chale gaye
-            int len = right - left - 1;   // actual palindrome length
-            if (len > maxLen) {           // agar yeh maxLen se bada hai, update karo
-                maxLen = len;
-                start = left + 1;        // left+1 se start hota hai palindrome
-            }
-        };
-
-        // Har character ko center maan ke check karo
-        for (int i = 0; i < n; i++) {
-            expandAroundCenter(i, i);     // Odd length palindrome
-            expandAroundCenter(i, i + 1); // Even length palindrome
+        // Expand outward as long as characters match.
+        while (left >= 0 && right < n && s[left] == s[right]) {
+            left--;
+            right++;
         }
 
-        // Longest palindrome substring return karo
-        return s.substr(start, maxLen);
+        // We stepped one too far on both sides; actual palindrome is [left+1, right-1].
+        int len = right - left - 1;
+        if (len > bestLen) {
+            bestLen = len;
+            bestStart = left + 1;
+        }
+    }
+
+    string longestPalindrome(string s) {
+        int n = s.size();
+        if (n <= 1) return s;  // single char (or empty) is already a palindrome
+
+        int bestStart = 0;
+        int bestLen = 1;       // at least one char is always a palindrome
+
+        for (int i = 0; i < n; i++) {
+            expandAroundCenter(s, i, i,     bestStart, bestLen); // odd-length center
+            expandAroundCenter(s, i, i + 1, bestStart, bestLen); // even-length center
+        }
+
+        return s.substr(bestStart, bestLen);
     }
 };
