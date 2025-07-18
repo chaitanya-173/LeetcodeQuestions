@@ -1,23 +1,26 @@
 class Solution {
 public:
     int beautySum(string s) {
-        int n = s.length();
-        int sum = 0;
-        for(int i=0; i<n; i++) {
-            unordered_map<char, int> freq;
-            for(int j=i; j<n; j++) {
-                freq[s[j]]++;
+        int n = s.size();
+        int total = 0;
 
-                int maxi = INT_MIN;
-                int mini = INT_MAX;
+        for (int i = 0; i < n; i++) {
+            int freq[26] = {0};  // fresh counts for substrings starting at i
 
-                for(auto it: freq) {
-                    mini = min(mini, it.second);
-                    maxi = max(maxi, it.second);
+            for (int j = i; j < n; j++) {
+                freq[s[j] - 'a']++;
+
+                int mx = 0;
+                int mn = INT_MAX;
+
+                for (int k = 0; k < 26; k++) {
+                    if (freq[k] == 0) continue;
+                    mx = max(mx, freq[k]);
+                    mn = min(mn, freq[k]);
                 }
-                sum += (maxi-mini);
+                total += (mx - mn);
             }
         }
-        return sum;
+        return total;
     }
 };
