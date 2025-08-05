@@ -9,7 +9,7 @@ public:
         if(sum % 2 != 0) return false;
         sum /= 2;
 
-        vector<vector<int>> dp(n+1, vector<int>(sum + 1, 0));
+        vector<vector<bool>> dp(n+1, vector<bool>(sum + 1, 0));
         // initialization
         for(int i=0; i<=n; i++) {
             dp[i][0] = true;
