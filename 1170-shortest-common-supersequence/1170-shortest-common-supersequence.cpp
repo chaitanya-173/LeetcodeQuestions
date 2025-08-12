@@ -1,56 +1,59 @@
 class Solution {
 public:
     string shortestCommonSupersequence(string str1, string str2) {
-        int n = str1.length();
-        int m = str2.length();
-
-        // Step 1: Build LCS dp table
-        vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= m; j++) {
-                if (str1[i-1] == str2[j-1]) {
-                    dp[i][j] = 1 + dp[i-1][j-1];
+        // Step 1: Find the longest common subsequence using dynamic programming
+        int m = str1.length();
+        int n = str2.length();
+        vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
+        
+        // Fill the dp table
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (str1[i - 1] == str2[j - 1]) {
+                    dp[i][j] = 1 + dp[i - 1][j - 1];
                 } else {
-                    dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
                 }
             }
         }
-
-        // Step 2: Backtrack to get the LCS string
-        string lcs = "";
-        int i = n, j = m;
+        
+        // Step 2: Construct the shortest common supersequence
+        // Start from the bottom right of the dp table
+        int i = m, j = n;
+        string result = "";
+        
         while (i > 0 && j > 0) {
-            if (str1[i-1] == str2[j-1]) {
-                lcs += str1[i-1];
-                i--; j--;
-            } 
-            else if (dp[i-1][j] > dp[i][j-1]) {
+            if (str1[i - 1] == str2[j - 1]) {
+                // If the characters are the same, add it once
+                result.push_back(str1[i - 1]);
                 i--;
-            } 
-            else {
+                j--;
+            } else if (dp[i - 1][j] > dp[i][j - 1]) {
+                // If coming from top has higher value, take character from str1
+                result.push_back(str1[i - 1]);
+                i--;
+            } else {
+                // Otherwise, take character from str2
+                result.push_back(str2[j - 1]);
                 j--;
             }
         }
-        reverse(lcs.begin(), lcs.end());
-
-        // Step 3: Merge using LCS
-        string ans = "";
-        i = 0; j = 0;
-        for (char c : lcs) {
-            while (i < n && str1[i] != c) {
-                ans += str1[i++];
-            }
-            while (j < m && str2[j] != c) {
-                ans += str2[j++];
-            }
-            ans += c; // add the common char once
-            i++;
-            j++;
+        
+        // Add remaining characters from str1 (if any)
+        while (i > 0) {
+            result.push_back(str1[i - 1]);
+            i--;
         }
-        // Append remaining parts
-        ans += str1.substr(i);
-        ans += str2.substr(j);
-
-        return ans;
+        
+        // Add remaining characters from str2 (if any)
+        while (j > 0) {
+            result.push_back(str2[j - 1]);
+            j--;
+        }
+        
+        // Reverse the result to get the final supersequence
+        reverse(result.begin(), result.end());
+        
+        return result;
     }
 };
