@@ -4,7 +4,7 @@ public:
         int n = coins.size();
         vector<vector<int>> dp(n+1, vector<int>(amount+1));
 
-        // initiazation
+        // initialization
         for(int j=0; j<=amount; j++) {
             dp[0][j] = INT_MAX-1;
         }
