@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0494-target-sum) |
+| [0583-delete-operation-for-two-strings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0583-delete-operation-for-two-strings) |
 | [1170-shortest-common-supersequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1250-longest-common-subsequence) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
+| [0583-delete-operation-for-two-strings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0583-delete-operation-for-two-strings) |
 | [0812-rotate-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1078-remove-outermost-parentheses) |
 | [1170-shortest-common-supersequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1170-shortest-common-supersequence) |
