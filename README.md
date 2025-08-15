@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1871-palindrome-partitioning-iv](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1871-palindrome-partitioning-iv) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 ## Divide and Conquer
 |  |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1871-palindrome-partitioning-iv](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1871-palindrome-partitioning-iv) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 ## String Matching
