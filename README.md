@@ -244,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0128-longest-consecutive-sequence) |
+| [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0112-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0112-path-sum) |
 | [0322-coin-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0322-coin-change) |
+| [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
 ## Bitmask
 |  |
 | ------- |
@@ -311,10 +313,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
 ## Binary Tree
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0543-diameter-of-binary-tree) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
