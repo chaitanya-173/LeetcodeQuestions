@@ -8,7 +8,7 @@ public:
             }
         }
     }
-    
+
     int findCircleNum(vector<vector<int>>& isConnected) {
         int V = isConnected.size();
         // adj list creation
@@ -32,9 +32,5 @@ public:
         }
 
         return cnt;
-
-
-
-
     }
 };
