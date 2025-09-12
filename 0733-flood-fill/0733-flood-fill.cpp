@@ -1,30 +1,37 @@
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int oldColor = image[sr][sc];
-        image[sr][sc] = color;
-        int n = image.size(), m = image[0].size();
+        int n = image.size();
+        int m = image[0].size();
+        vector<vector<int>> ans = image;
 
-        int dir[4][2] = {{0,1},{1,0},{-1,0},{0,-1}};
-        vector<vector<bool>> vis(n+1, vector<bool>(m+1,false));
-        queue<vector<int>> q;
-        q.push({sr,sc});
+        int originalColor = image[sr][sc];
+        if(originalColor == color) return ans;
 
-        while (!q.empty()){
-            vector <int> node = q.front();
+        queue<pair<int,int>> q;
+        q.push({sr, sc});
+        ans[sr][sc] = color;
+
+        vector<int> drow = {-1, 0, 1, 0};
+        vector<int> dcol = {0, 1, 0, -1};
+
+        while(!q.empty()) {
+            int r = q.front().first;
+            int c = q.front().second;
             q.pop();
-            int a = node[0];
-            int b = node[1];
-            for (int i=0; i<4; i++){
-                int c = a+dir[i][0], d = b+dir[i][1];
-                if (c>=0 && c<n && d>=0 && d<m && image[c][d] == oldColor && vis[c][d] == false){
-                    q.push({c,d});
-                    vis[c][d] = true;
-                    image[c][d] = color;
+
+            for(int i=0; i<4; i++) {
+                int nrow = r + drow[i];
+                int ncol = c + dcol[i];
+
+                if(nrow >= 0 && ncol >= 0 && nrow < n && ncol < m 
+                && ans[nrow][ncol] == originalColor) {
+                    ans[nrow][ncol] = color;
+                    q.push({nrow, ncol});
                 }
             }
         }
-        
-        return image;
+
+        return ans;
     }
 };
