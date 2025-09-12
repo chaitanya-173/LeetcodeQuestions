@@ -32,7 +32,7 @@ public:
             }
         }
 
-        vector<bool> vis(V+1, false);
+        vector<bool> vis(V, false);
         int cnt = 0;
         for(int i=0; i<V; i++) {
             if(!vis[i]) {
