@@ -1,10 +1,19 @@
 class Solution {
 public:
-    void dfs(int node, vector<vector<int>> &adj, vector<bool> &vis) {
-        vis[node] = 1;
-        for(auto it: adj[node]) {
-            if(!vis[it]) {
-                dfs(it, adj, vis);
+    void bfs(int node, vector<vector<int>> &adj, vector<bool> &vis) {
+        queue<int> q;
+        q.push(node);
+        vis[node] = true;
+
+        while(!q.empty()) {
+            int frontNode = q.front();
+            q.pop();
+            
+            for(auto it: adj[frontNode]) {
+                if(!vis[it]) {
+                    vis[it] = true;
+                    q.push(it);
+                }
             }
         }
     }
@@ -28,7 +37,7 @@ public:
         for(int i=0; i<V; i++) {
             if(!vis[i]) {
                 cnt++;
-                dfs(i, adj, vis);
+                bfs(i, adj, vis);
             }
         }
 
