@@ -1,41 +1,73 @@
 class Solution {
 public:
-    
-int numEnclaves(vector<vector<int>>& grid) {
-    int n = grid.size();
-    int m = grid[0].size();
-    vector<vector<int>>vis(n,vector<int>(m,0));
-    queue<pair<int,int>>q;
-    for(int i =0 ; i < n ; i++){
-        for(int j = 0 ; j < m ; j++){
-            if(i == 0 || i == n-1 || j == 0 || j == m-1){
-                if(grid[i][j] == 1){
-                    q.push({i,j});
-                    vis[i][j]=1;
-                }
+    int numEnclaves(vector<vector<int>>& grid) {
+        int n = grid.size();
+        int m = grid[0].size();
+        vector<vector<int>> vis(n, vector<int>(m, 0));
+        queue<pair<int,int>> q;
+
+        // traversing first row and last row
+        for(int j=0; j<m; j++) {
+            // first row
+            if(grid[0][j] == 1) {
+                q.push({0, j});
+                vis[0][j] = 1;
             }
-        }
-    }
-    vector<pair<int,int>>dir = {{1,0},{-1,0},{0,1},{0,-1}};
-    while(!q.empty()){
-        auto [r,c] = q.front();
-        q.pop();
-        for(auto [nr , nc] : dir){
-            int row = nr + r ;
-            int col = nc + c;
-            if(row>=0 && row < n && col >= 0 && col < m && !vis[row][col] && grid[row][col] == 1){
-                vis[row][col] = 1;
-                q.push({row,col});
+            // last row
+            if(grid[n-1][j] == 1) {
+                q.push({n-1, j});
+                vis[n-1][j] = 1;
             }
         }
 
-    }
-    int ans = 0;
-    for(int i = 0 ; i < n ; i++){
-        for(int j = 0 ; j < m ; j++){
-            if(!vis[i][j] && grid[i][j]==1)ans++;
+        // traversing first col and last col
+        for(int i=0; i<n; i++) {
+            // first col
+            if(grid[i][0] == 1) {
+                q.push({i, 0});
+                vis[i][0] = 1;
+            }
+            // last col
+            if(grid[i][m-1] == 1) {
+                q.push({i, m-1});
+                vis[i][m-1] = 1;
+            }
         }
+
+        vector<int> drow = {-1, 0, 1, 0};
+        vector<int> dcol = {0, 1, 0, -1};
+
+        while(!q.empty()) {
+            int r = q.front().first;
+            int c = q.front().second;
+            q.pop();
+
+            for(int i=0; i<4; i++) {
+                int nrow = r + drow[i];
+                int ncol = c + dcol[i];
+
+                if(nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && !vis[nrow][ncol] 
+                    && grid[nrow][ncol] == 1) {
+                    q.push({nrow, ncol});
+                    vis[nrow][ncol] = 1;
+                }
+            }
+        }
+
+        int totalOnes = 0;
+        for(int i=0; i<n; i++) {
+            for(int j=0; j<m; j++) {
+                if(grid[i][j] == 1) totalOnes++;
+            }
+        }
+
+        int cnt = 0;
+        for(int i=0; i<n; i++) {
+            for(int j=0; j<m; j++) {
+                if(vis[i][j] == 1) cnt++;
+            }
+        }
+
+        return totalOnes - cnt;
     }
-    return ans;
-}
 };
