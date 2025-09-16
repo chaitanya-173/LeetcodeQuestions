@@ -54,20 +54,15 @@ public:
             }
         }
 
-        int totalOnes = 0;
+        int enclaves = 0;
         for(int i=0; i<n; i++) {
             for(int j=0; j<m; j++) {
-                if(grid[i][j] == 1) totalOnes++;
+                if(grid[i][j] == 1 && vis[i][j] == 0) {
+                    enclaves++;
+                }
             }
         }
 
-        int cnt = 0;
-        for(int i=0; i<n; i++) {
-            for(int j=0; j<m; j++) {
-                if(vis[i][j] == 1) cnt++;
-            }
-        }
-
-        return totalOnes - cnt;
+        return enclaves;
     }
 };
