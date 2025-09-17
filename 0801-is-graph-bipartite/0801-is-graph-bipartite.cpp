@@ -1,13 +1,14 @@
 class Solution {
 public:
-    bool dfsColor(int node, vector<vector<int>> &graph, vector<int> &color) {
+    bool dfsColor(int node, int col, vector<vector<int>> &graph, vector<int> &color) {
+        color[node] = col;
+
         for(auto it: graph[node]) {
             if(color[it] == -1) {
-                color[it] = !color[node];
-                if(!dfsColor(it, graph, color)) { 
+                if(!dfsColor(it, !col, graph, color)) { 
                     return false;
                 }
-            } else if(color[it] == color[node]) {
+            } else if(color[it] == col) {
                 return false;
             }
         }
@@ -20,7 +21,7 @@ public:
 
         for(int i=0; i<n; i++) {
             if(color[i] == -1) {
-                if(!dfsColor(i, graph, color)) {
+                if(!dfsColor(i, 0, graph, color)) {
                     return false;
                 }
             }
