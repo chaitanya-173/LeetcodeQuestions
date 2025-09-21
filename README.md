@@ -321,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
 ## Bitmask
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0820-find-eventual-safe-states) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
 ## Binary Tree
 |  |
@@ -360,9 +362,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0820-find-eventual-safe-states) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0210-course-schedule-ii) |
+| [0820-find-eventual-safe-states](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
