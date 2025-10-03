@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0966-binary-subarrays-with-sum) |
 | [1036-rotting-oranges](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
@@ -244,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 ## Sliding Window
 |  |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Bitmask
 |  |
 | ------- |
