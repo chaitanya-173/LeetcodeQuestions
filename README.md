@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0493-reverse-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0493-reverse-pairs) |
 | [0923-super-egg-drop](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0923-super-egg-drop) |
+| [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bit Manipulation
 |  |
@@ -246,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 ## Sliding Window
 |  |
@@ -268,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -292,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0023-merge-k-sorted-lists) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
+| [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -332,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
 ## Bitmask
 |  |
 | ------- |
@@ -357,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0820-find-eventual-safe-states) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
 ## Binary Tree
 |  |
 | ------- |
