@@ -25,16 +25,16 @@ public:
             int node = pq.top().second;
             pq.pop();
 
-            if (dis > dist[node]) continue;  // Skip outdated entries
+            if (dis > dist[node]) continue;  // skip outdated entries
 
             for (auto it : adj[node]) {
                 int adjNode = it.first;
                 long long edgeWt = it.second;
 
-                if (edgeWt + dis < dist[adjNode]) {
+                if (edgeWt + dis < dist[adjNode]) { // first arrival with this short distance
                     dist[adjNode] = edgeWt + dis;
-                    pq.push({dist[adjNode], adjNode});
                     ways[adjNode] = ways[node];
+                    pq.push({dist[adjNode], adjNode});
                 } else if (edgeWt + dis == dist[adjNode]) {
                     ways[adjNode] = (ways[adjNode] + ways[node]) % mod;
                 }
