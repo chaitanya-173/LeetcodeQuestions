@@ -25,6 +25,8 @@ public:
             int node = pq.top().second;
             pq.pop();
 
+            if (dis > dist[node]) continue;  // Skip outdated entries
+
             for (auto it : adj[node]) {
                 int adjNode = it.first;
                 long long edgeWt = it.second;
