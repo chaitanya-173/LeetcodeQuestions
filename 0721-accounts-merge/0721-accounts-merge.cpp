@@ -21,7 +21,7 @@ class DisjointSet {
                 size[ulpV] += size[ulpU]; 
             } else {
                 parent[ulpV] = ulpU;
-                size[ulpU] = ulpV; 
+                size[ulpU] += size[ulpV]; 
             }
         }
 };
@@ -52,7 +52,7 @@ public:
 
         vector<vector<string>> ans;
         for(int i=0; i<n; i++) {
-            if(mergedMail[i].size() == 0) continue;
+            if(mergedMail[i].empty()) continue;
             sort(mergedMail[i].begin(), mergedMail[i].end());
             vector<string> temp;
             temp.push_back(accounts[i][0]);
