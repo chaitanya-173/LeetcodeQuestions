@@ -16,11 +16,12 @@ class DisjointSet {
             int ulpU = findUParent(u);
             int ulpV = findUParent(v);
             if(ulpU == ulpV) return;
-            if(size[ulpU] < size[ulpV]) parent[ulpU] = ulpV;
-            else if(size[ulpU] > size[ulpV]) parent[ulpV] = ulpU;
-            else {
+            if(size[ulpU] < size[ulpV]) {
+                parent[ulpU] = ulpV;
+                size[ulpV] += size[ulpU]; 
+            } else {
                 parent[ulpV] = ulpU;
-                size[ulpU] += size[ulpV];
+                size[ulpU] += size[ulpV];  
             }
         }
 };
