@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
+| [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0966-binary-subarrays-with-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0966-binary-subarrays-with-sum) |
 | [1036-rotting-oranges](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1036-rotting-oranges) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
+| [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0966-binary-subarrays-with-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1370-count-number-of-nice-subarrays) |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
+| [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Linked List
 |  |
@@ -220,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0583-delete-operation-for-two-strings) |
+| [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1078-remove-outermost-parentheses) |
 | [1170-shortest-common-supersequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1170-shortest-common-supersequence) |
@@ -276,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0801-is-graph-bipartite) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
@@ -343,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0801-is-graph-bipartite) |
@@ -374,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0210-course-schedule-ii) |
 | [0543-diameter-of-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0801-is-graph-bipartite) |
