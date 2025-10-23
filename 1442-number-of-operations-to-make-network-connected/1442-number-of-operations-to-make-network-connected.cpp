@@ -10,7 +10,7 @@ class DisjointSet {
         int findUParent(int node) {
             if(parent[node] == node) return node;
             return parent[node] = findUParent(parent[node]);
-        }  
+        }
 
         void unionBySize(int u, int v) {
             int ulpU = findUParent(u);
@@ -21,7 +21,7 @@ class DisjointSet {
                 size[ulpV] += size[ulpU];
             } else {
                 parent[ulpV] = ulpU;
-                size[ulpU] += size[ulpV]; 
+                size[ulpU] += size[ulpV];
             }
         }
 };
@@ -30,23 +30,25 @@ class Solution {
 public:
     int makeConnected(int n, vector<vector<int>>& connections) {
         DisjointSet ds(n);
-        int noOfEdges = 0;
-        for(int i=0; i<connections.size(); i++) {
-            int u = connections[i][0];
-            int v = connections[i][1];
-            if(ds.findUParent(u) != ds.findUParent(v)) {
-                ds.unionBySize(u, v);
+        int extraEdges = 0;
+        for(auto it: connections) {
+            int u = it[0];
+            int v = it[1];
+            if(ds.findUParent(u) == ds.findUParent(v)) {
+                extraEdges++;
             } else {
-                noOfEdges++;
+                ds.unionBySize(u, v);
             }
         }
 
-        int noOfComponents = 0;
+        int noOfComp = 0;
         for(int i=0; i<n; i++) {
-            if(ds.findUParent(i) == i) noOfComponents++;
+            if(ds.findUParent(i) == i) {
+                noOfComp++;
+            }
         }
 
-        if(noOfComponents - noOfEdges <= 1) return noOfComponents - 1;
+        if(noOfComp - extraEdges <= 1) return noOfComp-1;
         return -1;
     }
 };
