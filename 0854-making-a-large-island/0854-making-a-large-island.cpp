@@ -1,6 +1,6 @@
 class DisjointSet {
     public:
-    vector<int> parent, size;
+        vector<int> parent, size;
         DisjointSet(int n) {
             parent.resize(n+1);
             size.resize(n+1, 1);
