@@ -1,70 +1,79 @@
-class Solution {
-    int d[5] = {1, 0, -1, 0, 1}; // Direction vectors
-    int n;
-
-    // Depth-First Search to mark island and calculate its size
-    int dfs(int row, int col, int id, vector<vector<int>>& grid) {
-        grid[row][col] = id; // Mark cell with island ID
-        int cnt = 1; // Initialize size of the island
-
-        for (int i = 0; i < 4; i++) { // Explore all 4 directions
-            int nr = row + d[i];
-            int nc = col + d[i + 1];
-
-            if (nr >= 0 && nc >= 0 && nr < n && nc < n && grid[nr][nc] == 1)
-                cnt += dfs(nr, nc, id, grid);
+class DisjointSet {
+    public:
+    vector<int> parent, size;
+        DisjointSet(int n) {
+            parent.resize(n+1);
+            size.resize(n+1, 1);
+            for(int i=0; i<=n; i++) parent[i] = i;
         }
 
-        return cnt; // Return the total size of the island
-    }
+        int findUParent(int node) {
+            if(parent[node] == node) return node;
+            return parent[node] = findUParent(parent[node]);
+        }
 
-public:
-    int largestIsland(vector<vector<int>>& grid) {
-        n = grid.size(); 
-        vector<int> key; // Store sizes of all islands
-        int id = 2; // Island IDs start from 2
-
-        // Identify all islands and calculate their sizes
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 1)
-                    key.push_back(dfs(i, j, id++, grid));
+        void unionBySize(int u, int v) {
+            int ulpU = findUParent(u);
+            int ulpV = findUParent(v);
+            if(ulpU == ulpV) return;
+            if(size[ulpU] < size[ulpV]) {
+                parent[ulpU] = ulpV;
+                size[ulpV] += size[ulpU];
+            } else {
+                parent[ulpV] = ulpU;
+                size[ulpU] += size[ulpV];
             }
         }
+};
 
-        if (key.empty()) return 1; // Grid contains no land
+class Solution {
+public:
+    int largestIsland(vector<vector<int>>& grid) {
+        int n = grid.size();
+        DisjointSet ds(n*n);
+        vector<int> dr = {-1, 0, 1, 0};
+        vector<int> dc = {0, 1, 0, -1};
 
-        int ans = 1;
-
-        // Check all water cells and calculate potential island size
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 0) {
-                    int cnt = 1;
-
-                    // Add sizes of neighboring islands
-                    for (int k = 0; k < 4; k++) {
-                        int nr = i + d[k];
-                        int nc = j + d[k + 1];
-
-                        if (nr >= 0 && nc >= 0 && nr < n && nc < n && grid[nr][nc] != 0 && key[grid[nr][nc] - 2] > 0)
-                            cnt += key[grid[nr][nc] - 2], key[grid[nr][nc] - 2] *= -1; // Mark island as visited
+        // 1: making dsu (connection components)
+        for(int i=0; i<n; i++) {
+            for(int j=0; j<n; j++) {
+                if(grid[i][j] == 0) continue;
+                for(int ind=0; ind<4; ind++) {
+                    int nr = i + dr[ind];
+                    int nc = j + dc[ind];
+                    if(nr >= 0 && nr < n && nc >= 0 && nc < n && grid[nr][nc] == 1) {
+                        ds.unionBySize(i * n + j, nr * n + nc);
                     }
-
-                    // Reset the sizes of marked islands
-                    for (int k = 0; k < 4; k++) {
-                        int nr = i + d[k];
-                        int nc = j + d[k + 1];
-
-                        if (nr >= 0 && nc >= 0 && nr < n && nc < n && grid[nr][nc] != 0 && key[grid[nr][nc] - 2] < 0)
-                            key[grid[nr][nc] - 2] *= -1; // Unmark island
-                    }
-
-                    ans = max(ans, cnt); // Update the largest possible island size
                 }
             }
         }
 
-        return ans == 1 ? n * n : ans; // Return result
+        // 2: checking by converting every 0 to 1 
+        int maxSize = 0;
+        for(int i=0; i<n; i++) {
+            for(int j=0; j<n; j++) {
+                if(grid[i][j] == 1) continue;
+                set<int> components;
+                for(int ind=0; ind<4; ind++) {
+                    int nr = i + dr[ind];
+                    int nc = j + dc[ind];
+                    if(nr >= 0 && nr < n && nc >= 0 && nc < n && grid[nr][nc] == 1) {
+                        components.insert(ds.findUParent(nr * n + nc)); 
+                    }
+                }
+                int totalSize = 1;
+                for(auto it: components) {
+                    totalSize += ds.size[it];
+                }
+                maxSize = max(maxSize, totalSize);
+            }
+        }
+
+        // edge case: if the grid consists all the 1's
+        for(int cellNo = 0; cellNo < n*n; cellNo++) {
+            maxSize = max(maxSize, ds.size[ds.findUParent(cellNo)]);
+        }
+
+        return maxSize;
     }
 };
