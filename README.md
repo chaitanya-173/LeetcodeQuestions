@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0088-merge-sorted-array) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0070-climbing-stairs) |
 | [0087-scramble-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0087-scramble-string) |
 | [0118-pascals-triangle](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0118-pascals-triangle) |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0073-set-matrix-zeroes) |
 | [0130-surrounded-regions](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0200-number-of-islands) |
