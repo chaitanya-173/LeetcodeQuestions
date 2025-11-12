@@ -7,8 +7,7 @@ public:
         if(dp[n] != -1) return dp[n];
 
         int prev = f(n-1, nums, dp);
-        int prev2 = INT_MIN;
-        if(n > 1) prev2 = f(n-2, nums, dp) + nums[n];
+        int prev2 = f(n-2, nums, dp) + nums[n];
 
         return dp[n] = max(prev, prev2);
     }
