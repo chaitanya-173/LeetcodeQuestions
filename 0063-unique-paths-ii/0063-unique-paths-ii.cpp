@@ -4,7 +4,7 @@ public:
         int n = obstacleGrid.size();
         int m = obstacleGrid[0].size();
 
-        vector<vector<int>> dp(n, vector<int>(m, 0));
+        vector<vector<int>> dp(n, vector<int>(m));
 
         for(int i=0; i<n; i++) {
             for(int j=0; j<m; j++) {
