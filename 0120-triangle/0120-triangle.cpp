@@ -13,11 +13,11 @@ public:
 
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size();
-        int m = triangle[n-1].size();
-        vector<vector<int>> dp(n, vector<int>(m, -1));
+        vector<vector<int>> dp(n, vector<int>(n, -1));
+
         int mini = INT_MAX;
-        for(int i=0; i<m; i++) {
-            mini = min(mini, f(n-1, i, triangle, dp));
+        for(int j = 0; j < n; j++) {
+            mini = min(mini, f(n-1, j, triangle, dp));
         }
         return mini;
     }
