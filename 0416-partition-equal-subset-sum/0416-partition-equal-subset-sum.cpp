@@ -7,21 +7,22 @@ public:
         if(sum % 2 != 0) return false;
 
         int target = sum/2;
-        vector<vector<bool>> dp(n, vector<bool>(target + 1, 0)); 
-
-        for(int i=0; i<n; i++) dp[i][0] = 1;
-        // dp[0][0] = 0;
+        vector<bool> prev(target+1, 0); 
+        prev[0] = 1;
 
         for(int i=1; i<n; i++) {
+            vector<bool> curr(target+1, 0);
+            curr[0] = 1;
             for(int j=1; j<=target; j++) {
-                bool notPick = dp[i-1][j];
+                bool notPick = prev[j];
                 bool pick = false;
-                if(arr[i] <= j) pick = dp[i-1][j-arr[i]];
-                dp[i][j] = notPick || pick;
+                if(arr[i] <= j) pick = prev[j-arr[i]];
+                curr[j] = notPick || pick;
             }
+            prev = curr;
         }
 
-        return dp[n-1][target];
+        return prev[target];
          
     }
 };
