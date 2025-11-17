@@ -9,6 +9,7 @@ public:
         int target = sum/2;
         vector<bool> prev(target+1, 0); 
         prev[0] = 1;
+        if(arr[0] <= target) prev[arr[0]] = true;
 
         for(int i=1; i<n; i++) {
             vector<bool> curr(target+1, 0);
