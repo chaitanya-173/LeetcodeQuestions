@@ -1,34 +1,30 @@
 class Solution {
 public:
-    int findTargetSumWays(vector<int>& nums, int target) {
-        int n = nums.size();
-
-        int sumOfArr = 0;
-        for(int num : nums) {
-            sumOfArr += num;
-        }
-
-        // Invalid cases
-        if (target > sumOfArr || target < -sumOfArr) return 0;
-        if ((target + sumOfArr) % 2 != 0) return 0;
-
-        int sum = (target + sumOfArr) / 2;
-
-        vector<vector<int>> dp(n+1, vector<int>(sum+1, 0));
-
-        // Base case: sum = 0
-        dp[0][0] = 1;
-
-        for(int i=1; i<=n; i++) {
-            for(int j=0; j<=sum; j++) {
-                if(nums[i-1] <= j) {
-                    dp[i][j] = dp[i-1][j-nums[i-1]] + dp[i-1][j];
-                } else {
-                    dp[i][j] = dp[i-1][j];
-                }
+    int countPartitions(vector<int>& arr, int diff) {
+        int totalSum = accumulate(arr.begin(), arr.end(), 0); 
+        if((totalSum - diff) % 2 != 0 || (totalSum - diff) < 0) return 0;
+        int k = ((totalSum - diff)/2);
+        
+        int n = arr.size();
+        vector<int> prev(k+1, 0);
+        prev[0] = 1;
+        if(arr[0] <= k) prev[arr[0]]++;
+        
+        for(int i=1; i<n; i++) {
+            vector<int> curr(k+1, 0);
+            curr[0] = 1;
+            for(int j=0; j<=k; j++) {
+                int notPick = prev[j];
+                int pick = (arr[i] <= j ? prev[j-arr[i]] : 0);
+                curr[j] = notPick + pick;
             }
+            prev = curr;
         }
+        
+        return prev[k];
+    }
 
-        return dp[n][sum];
+    int findTargetSumWays(vector<int>& nums, int target) {
+        return countPartitions(nums, target);
     }
 };
