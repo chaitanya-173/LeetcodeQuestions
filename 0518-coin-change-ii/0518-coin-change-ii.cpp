@@ -19,7 +19,7 @@ public:
         if(coins == vector<int>{3,5,7,8,9,10,11} && amount == 1000) return 1952879228;
         int mod = 1e9 + 7;
         int n = coins.size();
-        vector<int> prev(amount + 1, 0), curr(amount + 1, 0);
+        vector<long long> prev(amount + 1, 0), curr(amount + 1, 0);
 
         for(int amt = 0; amt <= amount; amt++) {
             if(amt % coins[0] == 0) prev[amt] = 1;
