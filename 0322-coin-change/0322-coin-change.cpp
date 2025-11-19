@@ -1,43 +1,23 @@
 class Solution {
 public:
+    int f(int i, int amt, vector<int> &coins, vector<vector<int>> &dp) {
+        if(i == 0) {
+            if(amt % coins[i] == 0) return amt / coins[i];
+            return 1e9;
+        }
+
+        if(dp[i][amt] != -1) return dp[i][amt];
+
+        int notPick = f(i-1, amt, coins, dp);
+        int pick = (coins[i] <= amt ? 1 + f(i, amt - coins[i], coins, dp) : 1e9);
+        
+        return dp[i][amt] = min(notPick, pick);
+    }
+
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
-        vector<vector<int>> dp(n+1, vector<int>(amount+1));
-
-        // initialization
-        for(int j=0; j<=amount; j++) {
-            dp[0][j] = INT_MAX-1;
-        }
-        for(int i=1; i<=n; i++) {
-            dp[i][0] = 0;
-        }
-        for(int j=1; j<=amount; j++) {
-            if(j % coins[0] == 0) {
-                dp[1][j] = j / coins[0];
-            } else {
-                dp[1][j] = INT_MAX-1;
-            }
-        }
-
-        // choice diagram
-        for(int i=2; i<=n; i++) {
-            for(int j=1; j<=amount; j++) {
-                if(coins[i-1] <= j) {
-                    dp[i][j] = min(1 + dp[i][j-coins[i-1]], dp[i-1][j]);
-                } else {
-                    dp[i][j] = dp[i-1][j];
-                }
-            }
-        }
-
-        for(int i=0; i<=n; i++) {
-            for(int j=0; j<=amount; j++) {
-                if(dp[i][j] == INT_MAX-1) {
-                    dp[i][j] = -1;
-                }
-            }
-        }
-
-        return dp[n][amount];
+        vector<vector<int>> dp(n, vector<int>(amount+1, -1));
+        int ans = f(n-1, amount, coins, dp);
+        return (ans >= 1e9 ? -1 : ans);
     }
 };
