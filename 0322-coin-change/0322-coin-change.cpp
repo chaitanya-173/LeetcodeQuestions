@@ -6,7 +6,7 @@ public:
             return 1e9;
         }
 
-        if(dp[i][amt] != 1e9) return dp[i][amt];
+        if(dp[i][amt] != -1) return dp[i][amt];
 
         int notPick = f(i-1, amt, arr, dp);
         int pick = (arr[i] <= amt ? 1 + f(i, amt - arr[i], arr, dp): 1e9);
@@ -15,7 +15,7 @@ public:
 
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
-        vector<vector<int>> dp(n, vector<int>(amount + 1, 1e9));
+        vector<vector<int>> dp(n, vector<int>(amount + 1, -1));
         int ans = f(n-1, amount, coins, dp);
         return (ans >= 1e9 ? -1 : ans);
     }
