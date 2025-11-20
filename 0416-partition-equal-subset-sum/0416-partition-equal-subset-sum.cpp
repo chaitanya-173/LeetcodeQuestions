@@ -1,29 +1,29 @@
 class Solution {
 public:
-    bool canPartition(vector<int>& arr) {
-        int n = arr.size();
-        int sum = 0;
-        for(int i=0; i<n; i++) sum += arr[i];
-        if(sum % 2 != 0) return false;
+    bool canPartition(vector<int>& nums) {
+        int totalSum = accumulate(nums.begin(), nums.end(), 0);
+        if(totalSum % 2 != 0) return false;
+        totalSum = totalSum / 2;
 
-        int target = sum/2;
-        vector<bool> prev(target+1, 0); 
-        prev[0] = 1;
-        if(arr[0] <= target) prev[arr[0]] = true;
+        int n = nums.size();
+        vector<vector<int>> dp(n, vector<int>(totalSum + 1, 0));
 
-        for(int i=1; i<n; i++) {
-            vector<bool> curr(target+1, 0);
-            curr[0] = 1;
-            for(int j=1; j<=target; j++) {
-                bool notPick = prev[j];
-                bool pick = false;
-                if(arr[i] <= j) pick = prev[j-arr[i]];
-                curr[j] = notPick || pick;
-            }
-            prev = curr;
+        for(int sum = 0; sum <= totalSum; sum++) {
+            if(nums[0] == sum) dp[0][sum] = 1;
+        }
+        
+        for(int i=0; i<n; i++) {
+            dp[i][0] = 0;
         }
 
-        return prev[target];
-         
+        for(int i=1; i<n; i++) {
+            for(int sum = 0; sum <= totalSum; sum++) {
+                int notPick = dp[i-1][sum];
+                int pick = (nums[i] <= sum ? dp[i-1][sum - nums[i]] : 0);
+                dp[i][sum] = notPick || pick;
+            }
+        }
+
+        return dp[n-1][totalSum];
     }
 };
