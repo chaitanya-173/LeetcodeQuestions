@@ -12,9 +12,9 @@ public:
             if(nums[0] == sum) dp[0][sum] = 1;
         }
         
-        for(int i=0; i<n; i++) {
-            dp[i][0] = 0;
-        }
+        // for(int i=0; i<n; i++) {
+        //     dp[i][0] = 0;
+        // }
 
         for(int i=1; i<n; i++) {
             for(int sum = 0; sum <= totalSum; sum++) {
