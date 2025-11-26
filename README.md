@@ -199,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0923-super-egg-drop](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0923-super-egg-drop) |
 | [0967-minimum-falling-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1013-fibonacci-number) |
+| [1143-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1250-longest-common-subsequence) |
 | [1403-palindrome-partitioning-iii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1403-palindrome-partitioning-iii) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1078-remove-outermost-parentheses) |
+| [1143-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1250-longest-common-subsequence) |
 | [1403-palindrome-partitioning-iii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1403-palindrome-partitioning-iii) |
