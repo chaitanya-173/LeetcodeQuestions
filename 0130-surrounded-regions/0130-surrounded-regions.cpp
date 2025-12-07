@@ -1,50 +1,44 @@
 class Solution {
 public:
-    void dfs(int row, int col, vector<vector<char>> &board, vector<vector<int>> &vis, 
-        int n, int m, vector<int> &delrow, vector<int> &delcol) {
-        vis[row][col] = 1;
-
-        // check for top, right, bottom, left
-        for(int i=0; i<4; i++) {
-            int nrow = row + delrow[i];
-            int ncol = col + delcol[i];
-            if(nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && 
-                !vis[nrow][ncol] && board[nrow][ncol] == 'O') {
-                dfs(nrow, ncol, board, vis, n, m, delrow, delcol);
-            }
-        }
-    }
-
     void solve(vector<vector<char>>& board) {
         int n = board.size();
         int m = board[0].size();
+
         vector<vector<int>> vis(n, vector<int>(m, 0));
+        queue<pair<int,int>> q;
 
-        vector<int> delrow = {-1, 0, 1, 0};
-        vector<int> delcol = {0, 1, 0, -1};
-
-        // traverse first row and last row
-        for(int j=0; j<m; j++) {
-            // first row
-            if(!vis[0][j] && board[0][j] == 'O') dfs(0, j, board, vis, n, m, delrow, delcol);
-            // last row
-            if(!vis[n-1][j] && board[n-1][j] == 'O') dfs(n-1, j, board, vis, n, m, delrow, delcol);
+        for(int i=0; i<n; i++) {
+            for(int j=0; j<m; j++) {
+                if((board[i][j] == 'O') && (i == 0 || j == 0 || i == n-1 || j == m-1)) {
+                    q.push({i, j});
+                    vis[i][j] = 1;
+                }
+            }
         }
 
-        // traverse first col and last col
-        for(int i=0; i<n; i++) {
-            // first col
-            if(!vis[i][0] && board[i][0] == 'O') dfs(i, 0, board, vis, n, m, delrow, delcol);
-            // last col
-            if(!vis[i][m-1] && board[i][m-1] == 'O') dfs(i, m-1, board, vis, n, m, delrow, delcol);
+        vector<int> dr = {-1, 0, 1, 0};
+        vector<int> dc = {0, 1, 0, -1};
+
+        while(!q.empty()) {
+            auto [r, c] = q.front();
+            q.pop();
+
+            for(int i=0; i<4; i++) {
+                int nr = r + dr[i];
+                int nc = c + dc[i];
+
+                if(nr >= 0 && nr < n && nc >= 0 && nc < m  
+                    && board[nr][nc] == 'O' && !vis[nr][nc]) {
+                    q.push({nr, nc});
+                    vis[nr][nc] = 1;
+                }
+            }
         }
 
         for(int i=0; i<n; i++) {
             for(int j=0; j<m; j++) {
-                if(!vis[i][j] && board[i][j] == 'O') board[i][j] = 'X';
+                if(board[i][j] == 'O' && !vis[i][j]) board[i][j] = 'X';
             }
         }
-
-        return;
     }
 };
