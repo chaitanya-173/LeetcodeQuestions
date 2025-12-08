@@ -15,7 +15,7 @@ public:
                 char original = word[i];
                 for(char ch = 'a'; ch <= 'z'; ch++) {
                     word[i] = ch;
-                    if(st.find(word) != st.end()) {
+                    if(st.count(word) > 0) {
                         q.push({word, steps + 1});
                         st.erase(word);
                     }
