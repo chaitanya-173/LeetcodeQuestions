@@ -1,66 +1,66 @@
+
 class Solution {
 public:
-    vector<vector<string>> ans;
-    unordered_map<string, vector<string>> parent;
-    
-    void backtrack(string &word, string &beginWord, vector<string> &path) {
-        if (word == beginWord) {
-            vector<string> temp = path;
-            reverse(temp.begin(), temp.end());
-            ans.push_back(temp);
-            return;
-        }
-
-        for (auto &p : parent[word]) {
-            path.push_back(p);
-            backtrack(p, beginWord, path);
-            path.pop_back();
-        }
-    }
-
     vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
-        unordered_set<string> words(wordList.begin(), wordList.end());
-        if (!words.count(endWord)) return {};
-
-        unordered_map<string, int> dist;
+        unordered_map<string, int> depthMap;
+        vector<vector<string>> ans;
+        
+        // BFS to find the shortest path
+        unordered_set<string> wordSet(wordList.begin(), wordList.end());
         queue<string> q;
-
         q.push(beginWord);
-        dist[beginWord] = 0;
-
-        int L = beginWord.size();
-
+        depthMap[beginWord] = 1;
+        wordSet.erase(beginWord);
+        
         while (!q.empty()) {
             string word = q.front();
             q.pop();
-            int d = dist[word];
-
-            for (int i = 0; i < L; i++) {
-                string next = word;
-                char orig = next[i];
-
-                for (char ch = 'a'; ch <= 'z'; ch++) {
-                    next[i] = ch;
-                    if (!words.count(next)) continue;
-
-                    if (!dist.count(next)) {
-                        dist[next] = d + 1;
-                        q.push(next);
-                    }
-
-                    if (dist[next] == d + 1) {
-                        parent[next].push_back(word);
+            int steps = depthMap[word];
+            if (word == endWord) break;
+            for (int i = 0; i < word.size(); ++i) {
+                char original = word[i];
+                for (char ch = 'a'; ch <= 'z'; ++ch) {
+                    word[i] = ch;
+                    if (wordSet.count(word)) {
+                        q.push(word);
+                        wordSet.erase(word);
+                        depthMap[word] = steps + 1;
                     }
                 }
-                next[i] = orig;
+                word[i] = original;
             }
         }
-
-        if (!dist.count(endWord)) return {};
-
-        vector<string> path = { endWord };
-        backtrack(endWord, beginWord, path);
-
+        
+        // DFS to find all paths
+        if (depthMap.count(endWord)) {
+            vector<string> seq = {endWord};
+            dfs(endWord, beginWord, seq, depthMap, ans);
+        }
+        
         return ans;
+    }
+    
+private:
+    void dfs(string word, string beginWord, vector<string>& seq, unordered_map<string, int>& depthMap, vector<vector<string>>& ans) {
+        if (word == beginWord) {
+            reverse(seq.begin(), seq.end());
+            ans.push_back(seq);
+            reverse(seq.begin(), seq.end());
+            return;
+        }
+        
+        int steps = depthMap[word];
+        for (int i = 0; i < word.size(); ++i) {
+            char original = word[i];
+            for (char ch = 'a'; ch <= 'z'; ++ch) {
+                word[i] = ch;
+                if (depthMap.count(word) && depthMap[word] + 1 == steps) {
+                    seq.push_back(word);
+                    dfs(word, beginWord, seq, depthMap, ans);
+                    seq.pop_back();
+                }
+            }
+            word[i] = original;
+        }
     }
 };
