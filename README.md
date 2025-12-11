@@ -170,12 +170,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0024-swap-nodes-in-pairs) |
+| [0044-wildcard-matching](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0044-wildcard-matching) |
 | [1013-fibonacci-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1013-fibonacci-number) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0063-unique-paths-ii) |
@@ -241,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0038-count-and-say) |
+| [0044-wildcard-matching](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0044-wildcard-matching) |
 | [0087-scramble-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0087-scramble-string) |
 | [0126-word-ladder-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0127-word-ladder) |
@@ -336,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0044-wildcard-matching) |
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 ## Trie
