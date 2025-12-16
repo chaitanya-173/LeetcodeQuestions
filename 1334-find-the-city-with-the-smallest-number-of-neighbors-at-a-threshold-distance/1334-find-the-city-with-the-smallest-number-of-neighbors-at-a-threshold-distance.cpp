@@ -31,24 +31,21 @@ public:
             adj[it[1]].push_back({it[0], it[2]});
         }
 
-        vector<int> cntOfCities(n, INT_MAX);
+        int ans = -1;
+        int minCities = INT_MAX;
+
         for(int i=0; i<n; i++) {
             vector<int> dist = dijkstra(i, n, adj);
+
             int cnt = 0;
             for(int j=0; j<n; j++) {
                 if(dist[j] <= distanceThreshold) cnt++;
             }
-            cntOfCities[i] = cnt;
-        }
 
-        int minCities = INT_MAX;
-        for(int i=0; i<n; i++) {
-            minCities = min(minCities, cntOfCities[i]);
-        }
-
-        int ans = 0;
-        for(int i=0; i<n; i++) {
-            if(cntOfCities[i] == minCities) ans = i;
+            if(cnt <= minCities) {
+                minCities = cnt;
+                ans = i;
+            }
         }
 
         return ans;
