@@ -217,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-cherry-pickup-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1559-cherry-pickup-ii) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1871-palindrome-partitioning-iv](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1871-palindrome-partitioning-iv) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -483,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1706-min-cost-to-connect-all-points](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1706-min-cost-to-connect-all-points) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2685-count-the-number-of-complete-components](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2685-count-the-number-of-complete-components) |
@@ -492,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0820-find-eventual-safe-states) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
@@ -501,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Memoization
 |  |
