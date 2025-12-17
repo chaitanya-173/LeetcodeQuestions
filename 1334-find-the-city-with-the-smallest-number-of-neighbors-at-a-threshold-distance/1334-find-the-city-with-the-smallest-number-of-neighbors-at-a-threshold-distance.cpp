@@ -1,6 +1,6 @@
 class Solution {
-public: 
-    vector<int> dijkstra(int src, int n, vector<vector<pair<int,int>>> &adj) {
+public:
+    vector<int> dijkstra(int n, vector<vector<pair<int,int>>> &adj, int src) {
         priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
         vector<int> dist(n, INT_MAX);
         pq.push({0, src});
@@ -15,8 +15,8 @@ public:
             for(auto it: adj[node]) {
                 auto [adjNode, edgeWt] = it;
                 if(dis + edgeWt < dist[adjNode]) {
-                    dist[adjNode] = dis + edgeWt;
                     pq.push({dis + edgeWt, adjNode});
+                    dist[adjNode] = dis + edgeWt;
                 }
             }
         }
@@ -31,11 +31,11 @@ public:
             adj[it[1]].push_back({it[0], it[2]});
         }
 
-        int ans = -1;
         int minCities = INT_MAX;
+        int ans = -1;
 
         for(int i=0; i<n; i++) {
-            vector<int> dist = dijkstra(i, n, adj);
+            vector<int> dist = dijkstra(n, adj, i);
 
             int cnt = 0;
             for(int j=0; j<n; j++) {
