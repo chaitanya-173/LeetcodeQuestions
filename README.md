@@ -336,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1020-number-of-enclaves) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1631-path-with-minimum-effort) |
 | [1706-min-cost-to-connect-all-points](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1706-min-cost-to-connect-all-points) |
@@ -422,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1020-number-of-enclaves) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
@@ -482,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0820-find-eventual-safe-states) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
