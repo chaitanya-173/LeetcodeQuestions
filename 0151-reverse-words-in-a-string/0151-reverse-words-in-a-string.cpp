@@ -2,14 +2,14 @@ class Solution {
 public:
     string reverseWords(string s) {
         stringstream ss(s);
-        string word;
-        stack<string> words;
-        string ans;
 
-        while (ss >> word) {
+        stack<string> words;
+        string word;
+        while(ss >> word) {
             words.push(word);
         }
 
+        string ans;
         while(!words.empty()) {
             ans += words.top();
             words.pop();
