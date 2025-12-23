@@ -13,7 +13,7 @@ class Solution {
 public:
     void dfs(TreeNode* node, int row, int col, vector<tuple<int,int,int>> &nodes) {
         if(node == NULL) return;
-        nodes.push_back({col, row, node->val});
+        nodes.emplace_back(col, row, node->val);
         dfs(node->left, row+1, col-1, nodes);
         dfs(node->right, row+1, col+1, nodes);
     }
@@ -29,7 +29,6 @@ public:
 
         for(auto it: nodes) {
             auto [col, row, val] = it;
-            vector<int> temp;
             if(col != prevCol) {  // jaise hi column change hota hai, ek naya vertical column start karo, ans mein ek empty vector daal do
                 ans.push_back({});
                 prevCol = col;
