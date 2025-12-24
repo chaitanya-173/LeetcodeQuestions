@@ -10,34 +10,34 @@
 class Solution {
 public:
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        map<int, vector<int>> mp;
+
+        // graph: node -> neighbours
+        unordered_map<TreeNode*, vector<TreeNode*>> graph;
         queue<TreeNode*> q;
         q.push(root);
 
-        // build graph
+        // build undirected graph
         while(!q.empty()) {
             TreeNode* node = q.front();
             q.pop();
 
             if(node->left) {
+                graph[node].push_back(node->left);
+                graph[node->left].push_back(node);
                 q.push(node->left);
-                mp[node->val].push_back(node->left->val);
-                mp[node->left->val].push_back(node->val);
             }
             if(node->right) {
+                graph[node].push_back(node->right);
+                graph[node->right].push_back(node);
                 q.push(node->right);
-                mp[node->val].push_back(node->right->val);
-                mp[node->right->val].push_back(node->val);
             }
         }
 
         // BFS from target
-        vector<int> ans;
-        unordered_set<int> vis;
-        queue<int> bfs;
-
-        bfs.push(target->val);
-        vis.insert(target->val);
+        unordered_set<TreeNode*> vis;
+        queue<TreeNode*> bfs;
+        bfs.push(target);
+        vis.insert(target);
 
         int dist = 0;
 
@@ -45,27 +45,29 @@ public:
             int size = bfs.size();
 
             if(dist == k) {
+                vector<int> ans;
                 while(!bfs.empty()) {
-                    ans.push_back(bfs.front());
+                    ans.push_back(bfs.front()->val);
                     bfs.pop();
                 }
                 return ans;
             }
 
-            for(int i = 0; i < size; i++) {
-                int node = bfs.front();
+            for(int i=0; i<size; i++) {
+                TreeNode* node = bfs.front();
                 bfs.pop();
 
-                for(auto it : mp[node]) {
-                    if(!vis.count(it)) {
-                        vis.insert(it);
-                        bfs.push(it);
+                for(auto nei : graph[node]) {
+                    if(!vis.count(nei)) {
+                        vis.insert(nei);
+                        bfs.push(nei);
                     }
                 }
             }
             dist++;
         }
 
-        return ans;
+        return {};
     }
 };
+
