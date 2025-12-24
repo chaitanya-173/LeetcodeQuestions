@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0222-count-complete-tree-nodes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0493-reverse-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0493-reverse-pairs) |
 | [0923-super-egg-drop](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0923-super-egg-drop) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0029-divide-two-integers](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0029-divide-two-integers) |
 | [0136-single-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0136-single-number) |
+| [0222-count-complete-tree-nodes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Sorting
@@ -462,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0662-maximum-width-of-binary-tree) |
@@ -520,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0662-maximum-width-of-binary-tree) |
