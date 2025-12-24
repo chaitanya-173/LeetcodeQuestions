@@ -11,29 +11,26 @@ class Solution {
 public:
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
 
-        // graph: node -> neighbours
-        unordered_map<TreeNode*, vector<TreeNode*>> graph;
+        // 1) parent mapping
+        unordered_map<TreeNode*, TreeNode*> parent;
         queue<TreeNode*> q;
         q.push(root);
 
-        // build undirected graph
         while(!q.empty()) {
             TreeNode* node = q.front();
             q.pop();
 
             if(node->left) {
-                graph[node].push_back(node->left);
-                graph[node->left].push_back(node);
+                parent[node->left] = node;
                 q.push(node->left);
             }
             if(node->right) {
-                graph[node].push_back(node->right);
-                graph[node->right].push_back(node);
+                parent[node->right] = node;
                 q.push(node->right);
             }
         }
 
-        // BFS from target
+        // 2) BFS from target
         unordered_set<TreeNode*> vis;
         queue<TreeNode*> bfs;
         bfs.push(target);
@@ -57,11 +54,22 @@ public:
                 TreeNode* node = bfs.front();
                 bfs.pop();
 
-                for(auto nei : graph[node]) {
-                    if(!vis.count(nei)) {
-                        vis.insert(nei);
-                        bfs.push(nei);
-                    }
+                // left
+                if(node->left && !vis.count(node->left)) {
+                    vis.insert(node->left);
+                    bfs.push(node->left);
+                }
+
+                // right
+                if(node->right && !vis.count(node->right)) {
+                    vis.insert(node->right);
+                    bfs.push(node->right);
+                }
+
+                // parent
+                if(parent.count(node) && !vis.count(parent[node])) {
+                    vis.insert(parent[node]);
+                    bfs.push(parent[node]);
                 }
             }
             dist++;
@@ -70,4 +78,5 @@ public:
         return {};
     }
 };
+
 
