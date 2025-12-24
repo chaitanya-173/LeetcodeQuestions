@@ -11,65 +11,46 @@
  */
 class Solution {
 public:
+    int maxTime = 0;
+
+    int dfs(TreeNode* root, int start) {
+        if(!root) return -1;
+
+        // If current node is the start node
+        if(root->val == start) {
+            depth(root, 0);   // spread downward
+            return 1;
+        }
+
+        int left = dfs(root->left, start);
+        int right = dfs(root->right, start);
+
+        // If start is in left subtree
+        if(left != -1) {
+            maxTime = max(maxTime, left);
+            depth(root->right, left + 1);
+            return left + 1;
+        }
+
+        // If start is in right subtree
+        if(right != -1) {
+            maxTime = max(maxTime, right);
+            depth(root->left, right + 1);
+            return right + 1;
+        }
+
+        return -1;
+    }
+
+    void depth(TreeNode* root, int time) {
+        if(!root) return;
+        maxTime = max(maxTime, time);
+        depth(root->left, time + 1);
+        depth(root->right, time + 1);
+    }
+
     int amountOfTime(TreeNode* root, int start) {
-        // parent mapping
-        unordered_map<TreeNode*, TreeNode*> parent;
-        queue<TreeNode*> q;
-        q.push(root);
-
-        TreeNode* startNode = NULL;
-
-        while(!q.empty()) {
-            TreeNode* node = q.front();
-            q.pop();
-
-            if(node->val == start) startNode = node;
-
-            if(node->left) {
-                q.push(node->left);
-                parent[node->left] = node;
-            }
-            if(node->right) {
-                q.push(node->right);
-                parent[node->right] = node;
-            }
-        }
-
-        unordered_set<TreeNode*> vis;
-        queue<TreeNode*> qq;
-        qq.push(startNode);
-        vis.insert(startNode);
-
-        int time = -1;
-
-        while(!qq.empty()) {
-            int size = qq.size();
-
-            for(int i=0; i<size; i++) {
-                TreeNode* node = qq.front();
-                qq.pop();
-
-                // left
-                if(node->left && !vis.count(node->left)) {
-                    qq.push(node->left);
-                    vis.insert(node->left);
-                }
-                
-                // right
-                if(node->right && !vis.count(node->right)) {
-                    qq.push(node->right);
-                    vis.insert(node->right);
-                }
-
-                // parent
-                if(parent.count(node) && !vis.count(parent[node])) {
-                    qq.push(parent[node]);
-                    vis.insert(parent[node]);
-                }
-            }
-            time++;
-        }
-
-        return time;
+        dfs(root, start);
+        return maxTime;
     }
 };
