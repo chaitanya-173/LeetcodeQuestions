@@ -11,35 +11,37 @@
  */
 class Solution {
 public:
-    // morris traversal (tc - o(n), sc - o(1))
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> ans;
-        TreeNode* curr = root;
+        if(root == NULL) return ans;
+        TreeNode* cur = root;
 
-        while(curr != NULL) {
-            if(curr->left == NULL) {
-                ans.push_back(curr->val);
-                curr = curr->right;
-            }
-            else {
-                TreeNode* prev = curr->left;
-                while(prev->right && prev->right != curr) {
+        while(cur != NULL) {
+            // simple inorder
+            if(cur->left == NULL) {
+                ans.push_back(cur->val);
+                cur = cur->right;
+            } else {
+                // if left node is present then find the right most node of the left node(prev)
+                TreeNode* prev = cur->left;
+                while(prev->right && prev->right != cur) {
                     prev = prev->right;
                 }
 
-                // prev->right == NULL
+                // if found out the prev then connect it to the cur and move left
                 if(prev->right == NULL) {
-                    prev->right = curr;
-                    curr = curr->left;
-                } // prev->right == curr
-                else {
+                    prev->right = cur;
+                    cur = cur->left;
+                }
+                // prev->right == cur
+                else {  // if the thread already exists then cut it off and print cur and move right
                     prev->right = NULL;
-                    ans.push_back(curr->val);
-                    curr = curr->right;
+                    ans.push_back(cur->val);
+                    cur = cur->right;
                 }
             }
         }
-        
+
         return ans;
     }
 };
