@@ -14,16 +14,33 @@ public:
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> ans;
         if(root == NULL) return ans;
-        stack<TreeNode*> st;
-        st.push(root);
+        TreeNode* cur = root;
 
-        while(!st.empty()) {
-            TreeNode* node = st.top();
-            st.pop();
-            ans.push_back(node->val);
+        while(cur != NULL) {
+            // simple inorder
+            if(cur->left == NULL) {
+                ans.push_back(cur->val);
+                cur = cur->right;
+            } else {
+                // if left node is present then find the right most node of the left node(prev)
+                TreeNode* prev = cur->left;
+                while(prev->right && prev->right != cur) {
+                    prev = prev->right;
+                }
 
-            if(node->right) st.push(node->right);
-            if(node->left) st.push(node->left);
+                // 1st step: if found out the prev then connect it to the cur and move left
+                // main traversal toh yahin hora hai.. yahin hum left jaare hain aur print bhi krre hain
+                if(prev->right == NULL) {
+                    prev->right = cur;
+                    ans.push_back(cur->val);
+                    cur = cur->left;
+                }
+                // prev->right == cur
+                else {  // if the thread already exists then cut it off and move right
+                    prev->right = NULL;
+                    cur = cur->right;
+                }
+            }
         }
 
         return ans;
