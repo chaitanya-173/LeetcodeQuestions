@@ -52,16 +52,14 @@ public:
 
             // left
             ss >> str;
-            if(str == "#") node->left = NULL;
-            else {
+            if(str != "#") {
                 node->left = new TreeNode(stoi(str));
                 q.push(node->left);
             }
 
             // right
             ss >> str;
-            if(str == "#") node->right = NULL;
-            else {
+            if(str != "#") {
                 node->right = new TreeNode(stoi(str));
                 q.push(node->right);
             }
