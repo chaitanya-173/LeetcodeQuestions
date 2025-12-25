@@ -11,17 +11,17 @@
  */
 class Solution {
 public:
-    TreeNode* build(vector<int> &preorder, int preStart, int preEnd, 
-                    vector<int> &inorder, int inStart, int inEnd, unordered_map<int,int> &hash) {
+    TreeNode* build(int preStart, int preEnd, int inStart, int inEnd, 
+                    vector<int> &preorder, vector<int> &inorder, unordered_map<int,int> &hash) {
         if(preStart > preEnd || inStart > inEnd) return NULL;
 
         TreeNode* root = new TreeNode(preorder[preStart]);
 
         int inRoot = hash[root->val];
         int numsLeft = inRoot - inStart;
-    
-        root->left = build(preorder, preStart+1, preStart+numsLeft, inorder, inStart, inRoot-1, hash);
-        root->right = build(preorder, preStart+numsLeft+1, preEnd, inorder, inRoot+1, inEnd, hash);
+
+        root->left = build(preStart+1, preStart+numsLeft, inStart, inRoot-1, preorder, inorder, hash);
+        root->right = build(preStart+numsLeft+1, preEnd, inRoot+1, inEnd, preorder, inorder, hash);
 
         return root;
     }
@@ -32,7 +32,7 @@ public:
             hash[inorder[i]] = i;
         }
 
-        TreeNode* root = build(preorder, 0, preorder.size()-1, inorder, 0, inorder.size()-1, hash);
+        TreeNode* root = build(0, preorder.size()-1, 0, inorder.size()-1, preorder, inorder, hash);
 
         return root;
     }
