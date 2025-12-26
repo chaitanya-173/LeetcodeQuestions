@@ -24,7 +24,9 @@ public:
         TreeNode* rightChild = root->right;
         TreeNode* lastRight = findLastRight(root->left);
         lastRight->right = rightChild;
-        return root->left;
+        TreeNode* newRoot = root->left;
+        delete root;
+        return newRoot;
     }
 
     TreeNode* deleteNode(TreeNode* root, int key) {
