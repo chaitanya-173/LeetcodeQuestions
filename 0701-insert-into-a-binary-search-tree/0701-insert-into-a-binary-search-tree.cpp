@@ -16,7 +16,7 @@ public:
 
         TreeNode* curr = root;
         while(true) {
-            if(curr->val <= val) {
+            if(curr->val < val) {
                 if(curr->right) curr = curr->right;
                 else {
                     curr->right = new TreeNode(val);
