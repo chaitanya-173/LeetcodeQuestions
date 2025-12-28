@@ -224,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1250-longest-common-subsequence) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1403-palindrome-partitioning-iii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1403-palindrome-partitioning-iii) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -492,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0701-insert-into-a-binary-search-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
 |  |
@@ -533,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1020-number-of-enclaves) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
@@ -568,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0701-insert-into-a-binary-search-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Graph
 |  |
@@ -638,4 +642,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0701-insert-into-a-binary-search-tree) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 <!---LeetCode Topics End-->
