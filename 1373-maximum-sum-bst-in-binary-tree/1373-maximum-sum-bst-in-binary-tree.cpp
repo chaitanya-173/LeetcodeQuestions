@@ -11,8 +11,6 @@
  */
 class Solution {
 public:
-    int ans = 0;
-
     struct NodeInfo {
         bool isBST;
         int minVal;
@@ -20,11 +18,11 @@ public:
         int sum;
     };
 
-    NodeInfo postorder(TreeNode* root) {
+    NodeInfo postorder(TreeNode* root, int &ans) {
         if(!root) return {true, INT_MAX, INT_MIN, 0};
         
-        NodeInfo left = postorder(root->left);
-        NodeInfo right = postorder(root->right);
+        NodeInfo left = postorder(root->left, ans);
+        NodeInfo right = postorder(root->right, ans);
 
         if(left.isBST && right.isBST &&
             left.maxVal < root->val && root->val < right.minVal) {
@@ -44,7 +42,8 @@ public:
     }
 
     int maxSumBST(TreeNode* root) {
-        postorder(root);
+        int ans = 0;
+        postorder(root, ans);
         return ans;
     }
 };
