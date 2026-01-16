@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0854-making-a-large-island) |
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0583-delete-operation-for-two-strings) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0923-super-egg-drop](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0923-super-egg-drop) |
@@ -411,10 +413,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Merge Sort
 |  |
 | ------- |
