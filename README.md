@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0283-move-zeroes) |
+| [0312-burst-balloons](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0416-partition-equal-subset-sum) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0213-house-robber-ii) |
+| [0312-burst-balloons](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0392-is-subsequence) |
