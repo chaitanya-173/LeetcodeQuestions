@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0070-climbing-stairs) |
+| [0085-maximal-rectangle](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0085-maximal-rectangle) |
 | [0087-scramble-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0087-scramble-string) |
 | [0115-distinct-subsequences](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0118-pascals-triangle) |
@@ -331,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0073-set-matrix-zeroes) |
+| [0085-maximal-rectangle](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0542-01-matrix) |
@@ -399,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0144-binary-tree-preorder-traversal) |
 | [1021-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1021-remove-outermost-parentheses) |
@@ -670,4 +674,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0085-maximal-rectangle) |
 <!---LeetCode Topics End-->
