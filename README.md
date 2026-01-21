@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0075-sort-colors) |
+| [0084-largest-rectangle-in-histogram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -397,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0094-binary-tree-inorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0144-binary-tree-preorder-traversal) |
 | [1021-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1021-remove-outermost-parentheses) |
@@ -664,4 +666,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
