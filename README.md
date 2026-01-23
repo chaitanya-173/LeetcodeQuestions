@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0213-house-robber-ii) |
+| [0216-combination-sum-iii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0216-combination-sum-iii) |
 | [0229-majority-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0283-move-zeroes) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0037-sudoku-solver) |
 | [0126-word-ladder-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0126-word-ladder-ii) |
+| [0216-combination-sum-iii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0216-combination-sum-iii) |
 | [0494-target-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0494-target-sum) |
 ## Matrix
 |  |
