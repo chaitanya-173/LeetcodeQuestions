@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
+| [0282-expression-add-operators](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0282-expression-add-operators) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
 | [0923-super-egg-drop](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0923-super-egg-drop) |
 | [1013-fibonacci-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1013-fibonacci-number) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0242-valid-anagram) |
+| [0282-expression-add-operators](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0392-is-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
@@ -338,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0090-subsets-ii) |
 | [0126-word-ladder-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0126-word-ladder-ii) |
 | [0216-combination-sum-iii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0216-combination-sum-iii) |
+| [0282-expression-add-operators](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0494-target-sum) |
 ## Matrix
 |  |
