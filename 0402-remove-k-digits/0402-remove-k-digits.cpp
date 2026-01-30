@@ -1,36 +1,34 @@
 class Solution {
 public:
-    string removeKdigits(string num, int k) {
+    string removeKdigits(string s, int k) {
+        int n = s.size();
         stack<char> st;
-
-        // build monotonic increasing stack
-        for(char ch : num) {
-            while(!st.empty() && k > 0 && st.top() > ch) {
+        
+        for(int i=0; i<n; i++) {
+            while(!st.empty() && k > 0 && st.top() > s[i]) {
                 st.pop();
                 k--;
             }
-            st.push(ch);
+            st.push(s[i]);
         }
-
-        // if removals still left, remove from end
-        while(k > 0 && !st.empty()) {
+        
+        while(k > 0) {
             st.pop();
             k--;
         }
-
-        // build answer from stack
+        
         string ans = "";
         while(!st.empty()) {
-            ans.push_back(st.top());
+            ans += st.top();
             st.pop();
         }
+        
+        while(ans.size() != 0 && ans.back() == '0') {
+            ans.pop_back();
+        }
+        
         reverse(ans.begin(), ans.end());
-
-        // remove leading zeros
-        int idx = 0;
-        while(idx < ans.size() && ans[idx] == '0') idx++;
-        ans = ans.substr(idx);
-
+        
         return ans.empty() ? "0" : ans;
     }
 };
