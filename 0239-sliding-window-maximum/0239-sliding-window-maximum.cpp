@@ -11,7 +11,7 @@ public:
             if(!dq.empty() && dq.front() == i - k) {
                 dq.pop_front();
             }
-                
+            
             // chhote elements hatao (back se)
             while(!dq.empty() && nums[dq.back()] < nums[i]) {
                 dq.pop_back();
@@ -23,6 +23,7 @@ public:
             // answer tab push karo jab window ban jaaye
             if(i >= k - 1) ans.push_back(nums[dq.front()]);
         }
+        
         return ans;
     }
 };
