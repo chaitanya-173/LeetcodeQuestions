@@ -444,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0735-asteroid-collision) |
+| [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0907-sum-of-subarray-minimums) |
 | [1021-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1078-remove-outermost-parentheses) |
@@ -702,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0155-min-stack](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0155-min-stack) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -722,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0503-next-greater-element-ii) |
+| [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0907-sum-of-subarray-minimums) |
 ## Graph Theory
 |  |
@@ -735,4 +738,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0239-sliding-window-maximum) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
