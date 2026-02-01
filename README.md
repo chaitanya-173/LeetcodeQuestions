@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0128-longest-consecutive-sequence) |
+| [0146-lru-cache](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0229-majority-element-ii) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0023-merge-k-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0024-swap-nodes-in-pairs) |
+| [0146-lru-cache](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0146-lru-cache) |
 ## Recursion
 |  |
 | ------- |
@@ -701,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0155-min-stack) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
@@ -742,4 +745,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
