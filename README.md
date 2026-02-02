@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0735-asteroid-collision) |
 | [0854-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0854-making-a-large-island) |
+| [0860-lemonade-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0860-lemonade-change) |
 | [0907-sum-of-subarray-minimums](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0907-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0967-minimum-falling-path-sum) |
@@ -428,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0402-remove-k-digits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
+| [0860-lemonade-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0860-lemonade-change) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 ## Trie
 |  |
