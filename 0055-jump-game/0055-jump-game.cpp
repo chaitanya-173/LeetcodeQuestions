@@ -1,7 +1,7 @@
 class Solution {
 private:
     bool f(int ind, vector<int> &arr, vector<int> &dp) {
-        if(ind == arr.size()-1) return true;
+        if(ind >= arr.size()-1) return true;
         if(arr[ind] == 0) return false;
 
         if(dp[ind] != -1) return dp[ind];
