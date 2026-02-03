@@ -15,7 +15,27 @@ private:
 public:
     bool checkValidString(string s) {
         int n = s.size();
-        vector<vector<int>> dp(n, vector<int>(n, -1));
-        return f(0, 0, s, dp);
+        vector<bool> next(n+1, 0), cur(n+1, 0);
+
+        for(int ind=n; ind>=0; ind--) {
+            fill(cur.begin(), cur.end(), false); 
+            for(int cnt=n; cnt>=0; cnt--) {
+                if(ind == n) {
+                    cur[cnt] = (cnt == 0); 
+                } else if(s[ind] == '(') {
+                    if(cnt + 1 <= n) cur[cnt] = next[cnt+1];
+                } else if(s[ind] == ')') {
+                    if(cnt > 0) cur[cnt] = next[cnt-1];
+                } else {
+                    bool op1 = (cnt + 1 <= n) ? next[cnt+1] : false; // '('
+                    bool op2 = (cnt > 0) ? next[cnt-1] : false;      // ')'
+                    bool op3 = next[cnt];                            // empty
+                    cur[cnt] = op1 || op2 || op3;
+                }
+            }
+            next = cur;
+        }
+
+        return next[0];
     }
 };
