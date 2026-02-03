@@ -14,16 +14,19 @@ public:
     int numDistinct(string s, string t) {
         int n = s.size();
         int m = t.size();
-        vector<vector<unsigned long long>> dp(n+1, vector<unsigned long long>(m+1, 0));
+        vector<unsigned long long> next(m+1, 0), cur(m+1, 0);
 
-        for(int i=0; i<=n; i++) dp[i][m] = 1;
+        next[m] = 1;
+        cur[m] = 1;
 
         for(int i=n-1; i>=0; i--) {
             for(int j=m-1; j>=0; j--) {
-                if(s[i] == t[j]) dp[i][j] = dp[i+1][j] + dp[i+1][j+1];
-                else dp[i][j] = dp[i+1][j];
+                if(s[i] == t[j]) cur[j] = next[j] + next[j+1];
+                else cur[j] = next[j];
             }
+            next = cur;
         }
-        return dp[0][0];
+
+        return next[0];
     }
 };
