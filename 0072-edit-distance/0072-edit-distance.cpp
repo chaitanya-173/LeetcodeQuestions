@@ -1,45 +1,35 @@
 class Solution {
-private:
-    // int f(int i, int j, string &s, string &t, vector<vector<int>> &dp) {
-    //     if(i == 0) return j;
-    //     if(j == 0) return i;
+// private:
+//     int f(int i, int j, string &s1, string &s2, int n, int m, vector<vector<int>> &dp) {
+//         if(i == n) return m - j;
+//         if(j == m) return n - i;
 
-    //     if(dp[i][j] != -1) return dp[i][j];
+//         if(dp[i][j] != -1) return dp[i][j];
 
-    //     if(s[i-1] == t[j-1]) return dp[i][j] = f(i-1, j-1, s, t, dp);
+//         if(s1[i] == s2[j]) return dp[i][j] = f(i+1, j+1, s1, s2, n, m, dp);
 
-    //     return dp[i][j] = 1 + min(
-    //         f(i-1, j, s, t, dp),      // delete
-    //         min(
-    //             f(i, j-1, s, t, dp),  // insert
-    //             f(i-1, j-1, s, t, dp) // replace
-    //         )
-    //     );
-    // }
+//         return dp[i][j] = 1 + min(f(i+1, j+1, s1, s2, n, m, dp), min(f(i+1, j, s1, s2, n, m, dp), f(i, j+1, s1, s2, n, m, dp)));
+//     }
 
 public:
     int minDistance(string word1, string word2) {
         int n = word1.size();
         int m = word2.size();
+        vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
 
-        vector<int> prev(m+1, 0), cur(m+1, 0);
 
-        // base case: word1 empty
-        for(int j = 0; j <= m; j++) prev[j] = j;
-
-        for(int i = 1; i <= n; i++) {
-            cur[0] = i;  // word2 empty
-
-            for(int j = 1; j <= m; j++) {
-                if(word1[i-1] == word2[j-1]) {
-                    cur[j] = prev[j-1];
-                } else {
-                    cur[j] = 1 + min(prev[j-1], min(prev[j], cur[j-1]));
+        
+        for(int i=n; i>=0; i--) {
+            for(int j=m; j>=0; j--) {
+                if(i == n) dp[i][j] = m - j;
+                else if(j == m) dp[i][j] = n - i;
+                else {
+                    if(word1[i] == word2[j]) dp[i][j] = dp[i+1][j+1];
+                    else dp[i][j] = 1 + min(dp[i+1][j+1], min(dp[i+1][j], dp[i][j+1]));
                 }
             }
-            prev = cur;  
         }
 
-        return prev[m];
+        return dp[0][0];
     }
 };
