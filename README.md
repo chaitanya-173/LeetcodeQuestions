@@ -236,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0085-maximal-rectangle) |
 | [0087-scramble-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0087-scramble-string) |
 | [0115-distinct-subsequences](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0115-distinct-subsequences) |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0044-wildcard-matching) |
+| [0072-edit-distance](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0072-edit-distance) |
 | [0087-scramble-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0087-scramble-string) |
 | [0115-distinct-subsequences](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0115-distinct-subsequences) |
 | [0126-word-ladder-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0126-word-ladder-ii) |
