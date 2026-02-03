@@ -15,21 +15,20 @@ public:
     int minDistance(string word1, string word2) {
         int n = word1.size();
         int m = word2.size();
-        vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
+        vector<int> next(m+1, 0), cur(m+1, 0);
 
-
-        
         for(int i=n; i>=0; i--) {
             for(int j=m; j>=0; j--) {
-                if(i == n) dp[i][j] = m - j;
-                else if(j == m) dp[i][j] = n - i;
+                if(i == n) cur[j] = m - j;
+                else if(j == m) cur[j] = n - i;
                 else {
-                    if(word1[i] == word2[j]) dp[i][j] = dp[i+1][j+1];
-                    else dp[i][j] = 1 + min(dp[i+1][j+1], min(dp[i+1][j], dp[i][j+1]));
+                    if(word1[i] == word2[j]) cur[j] = next[j+1];
+                    else cur[j] = 1 + min(next[j+1], min(next[j], cur[j+1]));
                 }
             }
+            next = cur;
         }
 
-        return dp[0][0];
+        return next[0];
     }
 };
