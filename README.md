@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0283-move-zeroes) |
 | [0312-burst-balloons](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
@@ -300,12 +303,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0493-reverse-pairs) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## String
@@ -483,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 | [0743-network-delay-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0744-network-delay-time) |
@@ -493,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 ## Binary Indexed Tree
 |  |
@@ -782,4 +789,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
