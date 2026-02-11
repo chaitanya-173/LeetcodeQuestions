@@ -164,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0283-move-zeroes) |
+| [0295-find-median-from-data-stream](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0295-find-median-from-data-stream) |
 | [0392-is-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
+| [0295-find-median-from-data-stream](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
@@ -480,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0239-sliding-window-maximum) |
+| [0295-find-median-from-data-stream](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0295-find-median-from-data-stream) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 | [0743-network-delay-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0744-network-delay-time) |
@@ -729,6 +732,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0155-min-stack) |
+| [0295-find-median-from-data-stream](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
 ## Binary Search Tree
@@ -768,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0295-find-median-from-data-stream) |
 | [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
 ## Doubly-Linked List
 |  |
