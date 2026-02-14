@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0735-asteroid-collision) |
+| [0846-hand-of-straights](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0846-hand-of-straights) |
 | [0854-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0854-making-a-large-island) |
 | [0860-lemonade-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0860-lemonade-change) |
 | [0907-sum-of-subarray-minimums](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0907-sum-of-subarray-minimums) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
+| [0846-hand-of-straights](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0846-hand-of-straights) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0930-binary-subarrays-with-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0930-binary-subarrays-with-sum) |
 | [0966-binary-subarrays-with-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0966-binary-subarrays-with-sum) |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
+| [0846-hand-of-straights](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0846-hand-of-straights) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -461,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0678-valid-parenthesis-string) |
+| [0846-hand-of-straights](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0860-lemonade-change) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 ## Trie
