@@ -10,7 +10,6 @@
  */
 class Solution {
 public:
-    
     struct compare {
         bool operator()(ListNode* a, ListNode* b) {
             return a->val > b->val;   // min heap
@@ -25,13 +24,12 @@ public:
             if(node != NULL) pq.push(node);
         }
         
-        ListNode dummy(0);
-        ListNode* tail = &dummy;
+        ListNode* dummy = new ListNode(0);
+        ListNode* tail = dummy;
         
         while(!pq.empty()) {
             ListNode* smallest = pq.top();
             pq.pop();
-            
             tail->next = smallest;
             tail = tail->next;
             
@@ -40,6 +38,6 @@ public:
             }
         }
         
-        return dummy.next;
+        return dummy->next;
     }
 };
