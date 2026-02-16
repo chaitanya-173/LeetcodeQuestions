@@ -5,16 +5,16 @@ public:
         if(n % groupSize != 0) return false;
 
         map<int,int> freq;
-        for(auto it: hand) freq[it]++;
-        sort(hand.begin(), hand.end());
+        for(int x : hand) freq[x]++;
 
         while(!freq.empty()) {
-            int cur = freq.begin()->first;
+            int start = freq.begin()->first;
 
-            for(int i=0; i<groupSize; i++) {
-                if(!freq[cur + i]) return false;
-                freq[cur + i]--;
-                if(freq[cur + i] == 0) freq.erase(cur + i);
+            for(int i = 0; i < groupSize; i++) {
+                int card = start + i;
+                if(!freq[card]) return false;
+                freq[card]--;
+                if(freq[card] == 0) freq.erase(card);
             }
         }
 
