@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0216-combination-sum-iii) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0282-expression-add-operators) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
@@ -813,4 +815,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
