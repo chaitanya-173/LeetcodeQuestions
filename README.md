@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0204-count-primes) |
+| [0231-power-of-two](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0282-expression-add-operators) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Sorting
@@ -241,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0024-swap-nodes-in-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0024-swap-nodes-in-pairs) |
 | [0044-wildcard-matching](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0044-wildcard-matching) |
 | [0060-permutation-sequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0060-permutation-sequence) |
+| [0231-power-of-two](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0231-power-of-two) |
 | [1013-fibonacci-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1013-fibonacci-number) |
 ## Dynamic Programming
 |  |
