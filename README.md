@@ -203,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
+| [0338-counting-bits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0338-counting-bits) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Sorting
 |  |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0213-house-robber-ii) |
 | [0312-burst-balloons](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0416-partition-equal-subset-sum) |
