@@ -1,22 +1,22 @@
 class Solution {
-private:
-    double f(double x, long n) {
-        if(n == 0) return 1;
-
-        double half = f(x, n / 2);
-
-        if(n % 2 == 0)
-            return half * half;
-        else
-            return half * half * x;
-    }
 public:
     double myPow(double x, int n) {
-        long N = n;          // INT_MIN safe
-        if(N < 0) {
-            x = 1 / x;
-            N = -N;
+        double ans = 1;
+        long long m = n;   
+
+        if(m < 0) m = -m;  // now safe
+
+        while(m > 0) {
+            if((m & 1) == 1) {  // odd
+                ans = ans * x;
+                m = m - 1;
+            } else {  // even
+                m = m >> 1;
+                x = x * x;
+            }
         }
-        return f(x, N);
+
+        if(n < 0) ans = 1.0 / ans;
+        return ans;
     }
 };
