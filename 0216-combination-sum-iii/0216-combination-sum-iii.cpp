@@ -1,26 +1,26 @@
 class Solution {
 private:
-    void f(int idx, int sum, int k, int n, vector<int> &row, vector<vector<int>> &ans) {
-        if(sum == n && k == 0) {
-            ans.push_back(row);
+    void solve(int i, int k, int n, vector<int> &temp, vector<vector<int>> &ans) {
+        if(k == 0 && n == 0) {
+            ans.push_back(temp);
             return;
         }
-        if(idx > 9) return;
-
-        // exclude
-        f(idx + 1, sum, k, n, row, ans);
+        if(i > 9) return;
 
         // include 
-        row.push_back(idx);
-        f(idx + 1, sum + idx, k-1, n, row, ans);
-        row.pop_back();
+        temp.push_back(i);
+        solve(i+1, k-1, n-i, temp, ans);
+        temp.pop_back();
+
+        // exclude
+        solve(i+1, k, n, temp, ans);
     }
 
 public:
     vector<vector<int>> combinationSum3(int k, int n) {
-        vector<int> row;
         vector<vector<int>> ans;
-        f(1, 0, k, n, row, ans);
+        vector<int> temp;
+        solve(1, k, n, temp, ans);
         return ans;
     }
 };
