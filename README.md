@@ -164,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1486-xor-operation-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1486-xor-operation-in-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
+| [2139-minimum-moves-to-reach-target-score](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2139-minimum-moves-to-reach-target-score) |
 ## Two Pointers
 |  |
 | ------- |
@@ -493,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0860-lemonade-change) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
+| [2139-minimum-moves-to-reach-target-score](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2139-minimum-moves-to-reach-target-score) |
 ## Trie
 |  |
 | ------- |
