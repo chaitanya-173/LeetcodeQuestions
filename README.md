@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0735-asteroid-collision) |
+| [0827-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0827-making-a-large-island) |
 | [0846-hand-of-straights](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0846-hand-of-straights) |
 | [0854-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0854-making-a-large-island) |
 | [0860-lemonade-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0860-lemonade-change) |
@@ -428,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
+| [0827-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0827-making-a-large-island) |
 | [0854-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0854-making-a-large-island) |
 | [0967-minimum-falling-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0967-minimum-falling-path-sum) |
 | [1020-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1020-number-of-enclaves) |
@@ -592,6 +594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0820-find-eventual-safe-states) |
+| [0827-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0827-making-a-large-island) |
 | [0854-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0854-making-a-large-island) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -678,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0820-find-eventual-safe-states) |
+| [0827-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0827-making-a-large-island) |
 | [0854-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0854-making-a-large-island) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
@@ -856,5 +860,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0130-surrounded-regions) |
 | [0785-is-graph-bipartite](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0785-is-graph-bipartite) |
+| [0827-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 <!---LeetCode Topics End-->
