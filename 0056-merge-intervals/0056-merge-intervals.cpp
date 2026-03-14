@@ -2,20 +2,23 @@ class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         sort(intervals.begin(), intervals.end());
-        vector<vector<int>> merged;
-        vector<int> prev = intervals[0];
+        vector<vector<int>> ans;
+        int start = intervals[0][0];
+        int end = intervals[0][1];
 
-        for (int i = 1; i < intervals.size(); i++) {
-            if (intervals[i][0] <= prev[1]) {
-                // Merge overlapping intervals
-                prev[1] = max(prev[1], intervals[i][1]);
-            } else {
-                merged.push_back(prev);
-                prev = intervals[i];
-            }
+        for(auto &it: intervals) {
+            int first = it[0];
+            int second = it[1];
+
+            if(first <= end) end = max(end, second);
+            else {
+                ans.push_back({start, end});
+                start = first;
+                end = second;
+            } 
         }
-
-        merged.push_back(prev);
-        return merged;
+        
+        ans.push_back({start, end});
+        return ans;
     }
 };
