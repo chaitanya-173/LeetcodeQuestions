@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0645-set-mismatch) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0704-binary-search](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0704-binary-search) |
 | [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0735-asteroid-collision) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0493-reverse-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0493-reverse-pairs) |
+| [0704-binary-search](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0704-binary-search) |
 | [0923-super-egg-drop](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0923-super-egg-drop) |
 | [1631-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
