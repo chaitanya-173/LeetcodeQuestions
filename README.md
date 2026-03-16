@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0930-binary-subarrays-with-sum) |
 | [0966-binary-subarrays-with-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0967-minimum-falling-path-sum) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1073-number-of-enclaves) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0875-koko-eating-bananas) |
 | [0923-super-egg-drop](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0923-super-egg-drop) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1631-path-with-minimum-effort) |
