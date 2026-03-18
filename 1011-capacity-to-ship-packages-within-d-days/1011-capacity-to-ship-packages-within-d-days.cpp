@@ -1,27 +1,28 @@
 class Solution {
 private:
     bool isPossible(int cap, vector<int> &arr, int days) {
-        int curCap = cap, cnt = 1;
+        int cnt = 1, curCap = cap;
         for(int i=0; i<arr.size(); i++) {
             if(arr[i] <= curCap) {
-                curCap = curCap - arr[i];
+                curCap -= arr[i];
             } else {
-                curCap = cap;
-                curCap = curCap - arr[i];
+                curCap = cap - arr[i];
                 cnt++;
             }
         }
-        return (cnt <= days);
+        return cnt <= days;
     }
 
 public:
     int shipWithinDays(vector<int>& weights, int days) {
         int n = weights.size();
-        int maxi = 0, sum = 0;
-        for(int &x : weights) {
-            maxi = max(maxi, x);
-            sum += x;
-        }
+
+        int maxi = *max_element(weights.begin(), weights.end());
+        int sum = accumulate(weights.begin(), weights.end(), 0);
+
+        // for(int i=maxi; i<=sum; i++) {
+        //     if(isPossible(i, weights, days)) return i;
+        // }
 
         int low = maxi, high = sum;
         while(low <= high) {
