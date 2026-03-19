@@ -12,32 +12,31 @@ class Solution {
 public:
     struct compare {
         bool operator()(ListNode* a, ListNode* b) {
-            return a->val > b->val;   // min heap
+            return a->val > b->val;
         }
     };
-    
+
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<ListNode*, vector<ListNode*>, compare> pq;
-        
-        // first node of each list
-        for(auto node : lists) {
-            if(node != NULL) pq.push(node);
+        priority_queue<ListNode*, vector<ListNode*>, compare> minHeap;
+
+        for(auto &node: lists) {
+            if(node) minHeap.push(node);
         }
-        
-        ListNode* dummy = new ListNode(0);
+
+        ListNode* dummy = new ListNode(-1);
         ListNode* tail = dummy;
-        
-        while(!pq.empty()) {
-            ListNode* smallest = pq.top();
-            pq.pop();
-            tail->next = smallest;
-            tail = tail->next;
-            
-            if(smallest->next != NULL) {
-                pq.push(smallest->next);
-            }
+
+        while(!minHeap.empty()) {
+            ListNode* node = minHeap.top();
+            minHeap.pop();
+            tail->next = node;
+            tail = node;
+
+            if(node->next) minHeap.push(node->next);
         }
-        
-        return dummy->next;
+
+        ListNode* ans = dummy->next;
+        delete dummy;
+        return ans;
     }
 };
