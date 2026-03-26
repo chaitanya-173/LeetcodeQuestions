@@ -432,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0812-rotate-string) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1078-remove-outermost-parentheses) |
 | [1092-shortest-common-supersequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1092-shortest-common-supersequence) |
@@ -558,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0678-valid-parenthesis-string) |
 | [0846-hand-of-straights](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0860-lemonade-change) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 | [2139-minimum-moves-to-reach-target-score](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2139-minimum-moves-to-reach-target-score) |
 ## Trie
@@ -580,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0907-sum-of-subarray-minimums) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
