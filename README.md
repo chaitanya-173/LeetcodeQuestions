@@ -457,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-palindrome-partitioning-iv](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1871-palindrome-partitioning-iv) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
+| [2075-decode-the-slanted-ciphertext](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2075-decode-the-slanted-ciphertext) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## String Matching
 |  |
@@ -526,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0735-asteroid-collision) |
+| [2075-decode-the-slanted-ciphertext](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Union Find
 |  |
