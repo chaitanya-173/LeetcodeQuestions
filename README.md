@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0525-contiguous-array) |
 | [0542-01-matrix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
+| [0605-can-place-flowers](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0645-set-mismatch) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -576,6 +577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
+| [0605-can-place-flowers](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0678-valid-parenthesis-string) |
 | [0846-hand-of-straights](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0846-hand-of-straights) |
