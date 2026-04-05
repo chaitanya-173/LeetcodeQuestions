@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1331-rank-transform-of-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1331-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1431-kids-with-the-greatest-number-of-candies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1559-cherry-pickup-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1559-cherry-pickup-ii) |
