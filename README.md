@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0322-coin-change) |
+| [0334-increasing-triplet-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0334-increasing-triplet-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0410-split-array-largest-sum) |
@@ -576,6 +577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0135-candy) |
+| [0334-increasing-triplet-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0334-increasing-triplet-subsequence) |
 | [0402-remove-k-digits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
