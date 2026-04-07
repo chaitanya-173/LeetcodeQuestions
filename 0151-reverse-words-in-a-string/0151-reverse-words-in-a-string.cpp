@@ -3,17 +3,17 @@ public:
     string reverseWords(string s) {
         stringstream ss(s);
 
-        stack<string> words;
+        stack<string> st;
         string word;
         while(ss >> word) {
-            words.push(word);
+            st.push(word);
         }
 
-        string ans;
-        while(!words.empty()) {
-            ans += words.top();
-            words.pop();
-            if(!words.empty()) ans += " ";
+        string ans = "";
+        while(!st.empty()) {
+            ans += st.top();
+            st.pop();
+            if(!st.empty()) ans += " ";
         }
 
         return ans;
