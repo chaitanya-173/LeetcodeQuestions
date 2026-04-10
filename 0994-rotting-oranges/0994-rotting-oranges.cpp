@@ -1,17 +1,21 @@
 class Solution {
+private:
+    struct Node {
+        int r, c, t;
+    };
+
 public:
     int orangesRotting(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        vector<vector<int>> vis(n, vector<int>(m, 0));
-        queue<tuple<int,int,int>> q;  // row, col, time
+        queue<Node> q; 
         int cntFresh = 0;
         
-        for(int i=0; i<n; i++) {
-            for(int j=0; j<m; j++) {
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < m; j++) {
                 if(grid[i][j] == 2) {
-                    q.push({i,j,0});
-                    vis[i][j] = 1;
+                    q.push({i, j, 0});
+                    grid[i][j] = 2;
                 } else if(grid[i][j] == 1) {
                     cntFresh++;
                 }
@@ -23,18 +27,17 @@ public:
         int time = 0;
 
         while(!q.empty()) {
-            auto [r, c, t] = q.front();
+            Node cur = q.front();
             q.pop();
-            time = max(time, t);
+            time = max(time, cur.t);
 
-            for(int i=0; i<4; i++) {
-                int nrow = r + drow[i];
-                int ncol = c + dcol[i];
+            for(int i = 0; i < 4; i++) {
+                int nrow = cur.r + drow[i];
+                int ncol = cur.c + dcol[i];
                 
-                if(nrow >= 0 && nrow < n && ncol >= 0 && ncol < m 
-                && grid[nrow][ncol] == 1 && !vis[nrow][ncol]) {
-                    q.push({nrow, ncol, t+1});
-                    vis[nrow][ncol] = 1;
+                if(nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && grid[nrow][ncol] == 1) {
+                    q.push({nrow, ncol, cur.t+1});
+                    grid[nrow][ncol] = 2;
                     cntFresh--;
                 }
             }
