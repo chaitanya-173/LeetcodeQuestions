@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2643-row-with-maximum-ones](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2643-row-with-maximum-ones) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 ## Math
 |  |
 | ------- |
