@@ -1,31 +1,25 @@
 class Solution {
+// private:
+//     int f(int i, int j, int m, int n, vector<vector<int>> &dp) {
+//         if(i == m-1 && j == n-1) return 1;
+//         if(i >= m || j >= n) return 0;
+
+//         if(dp[i][j] != -1) return dp[i][j];
+
+//         return dp[i][j] = f(i+1, j, m, n, dp) + f(i, j+1, m, n, dp);
+//     }
+
 public:
-    // int f(int i, int j, vector<vector<int>> &dp) {
-    //     if(i == 0 && j == 0) return 1;
-    //     if(i < 0 || j < 0) return 0;
-
-    //     if(dp[i][j] != -1) return dp[i][j];
-
-    //     int up = f(i-1, j, dp);
-    //     int left = f(i, j-1, dp);
-
-    //     return dp[i][j] = up + left;
-    // }
-
     int uniquePaths(int m, int n) {
-        // vector<vector<int>> dp(m, vector<int>(n, 1));
-        vector<int> dp(n, 1);
+        vector<int> next(n+1, 1), cur(n+1, 1);
 
-        for(int i=1; i<m; i++) {
-            int prevLeft = 1;
-            for(int j=1; j<n; j++) {
-                int up = dp[j];
-                int left = prevLeft;
-                dp[j] = up + left;
-                prevLeft = dp[j]; 
+        for(int i = m-2; i >= 0; i--) {
+            for(int j = n-2; j >= 0; j--) {
+                cur[j] = next[j] + cur[j+1];
             }
+            next = cur;
         }
 
-        return dp[n-1];
+        return next[0];
     }
 };
