@@ -392,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1250-longest-common-subsequence) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1403-palindrome-partitioning-iii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1403-palindrome-partitioning-iii) |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1250-longest-common-subsequence) |
+| [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1403-palindrome-partitioning-iii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1403-palindrome-partitioning-iii) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
