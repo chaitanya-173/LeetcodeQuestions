@@ -2,6 +2,24 @@ class Solution {
 private:
     using ll = long long;
 
+    // // TLE : recursive approach
+    // ll f(int ind, vector<int> &robot, vector<vector<int>> &factory) {
+    //     if(ind == robot.size()) return 0;
+
+    //     ll mini = LLONG_MAX;
+    //     for(int i = 0; i < factory.size(); i++) {
+    //         if(factory[i][1] > 0) {
+    //             factory[i][1]--; 
+    //             ll dist = abs(robot[ind] - factory[i][0]) + f(ind+1, robot, factory);
+    //             mini = min(mini, dist);
+    //             factory[i][1]++;
+    //         }
+    //     }
+
+    //     return mini;
+    // }
+    
+    // // 
     // ll f(int i, int j, vector<int> &robot, vector<int> &slots, vector<vector<ll>> &dp) {
     //     if(i == robot.size()) return 0;
     //     if(j == slots.size()) return 1e15;
