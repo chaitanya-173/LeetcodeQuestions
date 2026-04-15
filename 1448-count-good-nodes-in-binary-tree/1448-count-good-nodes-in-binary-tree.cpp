@@ -11,23 +11,24 @@
  */
 class Solution {
 private:
-    void solve(TreeNode* root, int maxi, int &cnt) {
-        if(!root) return;
+    int solve(TreeNode* root, int maxi) {
+        if(!root) return 0;
 
+        int cnt = 0;
         if(root->val >= maxi) {
             cnt++;
             maxi = root->val;
         }
 
-        solve(root->left, maxi, cnt);
-        solve(root->right, maxi, cnt);
+        cnt += solve(root->left, maxi);
+        cnt += solve(root->right, maxi);
+
+        return cnt;
     }
 
 public:
     int goodNodes(TreeNode* root) {
         int maxi = INT_MIN;
-        int cnt = 0;
-        solve(root, maxi, cnt);
-        return cnt;
+        return solve(root, maxi);
     }
 };
