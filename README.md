@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0416-partition-equal-subset-sum) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0455-assign-cookies](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0493-reverse-pairs) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0355-design-twitter) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0451-sort-characters-by-frequency) |
 | [0525-contiguous-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0525-contiguous-array) |
@@ -288,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0260-single-number-iii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0338-counting-bits) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0645-set-mismatch](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0645-set-mismatch) |
 | [1486-xor-operation-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1486-xor-operation-in-an-array) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -636,6 +639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0208-implement-trie-prefix-tree) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 ## Stack
 |  |
 | ------- |
