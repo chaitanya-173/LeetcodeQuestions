@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2463-minimum-total-distance-traveled](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2463-minimum-total-distance-traveled) |
 | [2643-row-with-maximum-ones](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2643-row-with-maximum-ones) |
+| [3488-closest-equal-element-queries](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3488-closest-equal-element-queries) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1657-determine-if-two-strings-are-close](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1657-determine-if-two-strings-are-close) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+| [3488-closest-equal-element-queries](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3488-closest-equal-element-queries) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 ## Math
 |  |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1901-find-a-peak-element-ii) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [3488-closest-equal-element-queries](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3488-closest-equal-element-queries) |
 ## Bit Manipulation
 |  |
 | ------- |
