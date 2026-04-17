@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Hash Table
 |  |
 | ------- |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [3488-closest-equal-element-queries](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3488-closest-equal-element-queries) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Math
 |  |
 | ------- |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 | [2139-minimum-moves-to-reach-target-score](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2139-minimum-moves-to-reach-target-score) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Two Pointers
 |  |
 | ------- |
