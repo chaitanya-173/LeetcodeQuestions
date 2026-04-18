@@ -1052,4 +1052,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0986-interval-list-intersections](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0986-interval-list-intersections) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->
