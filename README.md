@@ -1056,6 +1056,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0595-big-countries](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0595-big-countries) |
+| [1141-user-activity-for-the-past-30-days-i](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1141-user-activity-for-the-past-30-days-i) |
 | [1148-article-views-i](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1148-article-views-i) |
 | [1683-invalid-tweets](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1683-invalid-tweets) |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
