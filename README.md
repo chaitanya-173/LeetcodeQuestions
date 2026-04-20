@@ -1061,6 +1061,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0197-rising-temperature](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0197-rising-temperature) |
+| [0577-employee-bonus](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0577-employee-bonus) |
 | [0595-big-countries](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0595-big-countries) |
 | [1068-product-sales-analysis-i](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1068-product-sales-analysis-i) |
 | [1141-user-activity-for-the-past-30-days-i](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1141-user-activity-for-the-past-30-days-i) |
