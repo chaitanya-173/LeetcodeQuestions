@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2463-minimum-total-distance-traveled](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2463-minimum-total-distance-traveled) |
@@ -647,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-lemonade-change](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0860-lemonade-change) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2139-minimum-moves-to-reach-target-score](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2139-minimum-moves-to-reach-target-score) |
 ## Trie
 |  |
