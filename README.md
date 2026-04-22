@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2078-two-furthest-houses-with-different-colors](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2463-minimum-total-distance-traveled](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2463-minimum-total-distance-traveled) |
 | [2643-row-with-maximum-ones](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2643-row-with-maximum-ones) |
 | [3488-closest-equal-element-queries](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3488-closest-equal-element-queries) |
@@ -518,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2075-decode-the-slanted-ciphertext) |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## String Matching
 |  |
@@ -657,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1707-maximum-xor-with-an-element-from-array) |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2452-words-within-two-edits-of-dictionary) |
 ## Stack
 |  |
 | ------- |
