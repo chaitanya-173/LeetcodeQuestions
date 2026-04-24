@@ -459,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0621-task-scheduler) |
 | [1657-determine-if-two-strings-are-close](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1657-determine-if-two-strings-are-close) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [2833-furthest-point-from-origin](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2833-furthest-point-from-origin) |
 ## String
 |  |
 | ------- |
@@ -520,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2452-words-within-two-edits-of-dictionary) |
+| [2833-furthest-point-from-origin](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2833-furthest-point-from-origin) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## String Matching
 |  |
