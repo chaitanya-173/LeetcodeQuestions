@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2452-words-within-two-edits-of-dictionary](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2463-minimum-total-distance-traveled](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2463-minimum-total-distance-traveled) |
 | [2643-row-with-maximum-ones](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2643-row-with-maximum-ones) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3488-closest-equal-element-queries](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3488-closest-equal-element-queries) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3653-xor-after-range-multiplication-queries-i) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2032-largest-odd-number-in-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2032-largest-odd-number-in-string) |
 | [2139-minimum-moves-to-reach-target-score](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2139-minimum-moves-to-reach-target-score) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Two Pointers
 |  |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1901-find-a-peak-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1901-find-a-peak-element-ii) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3488-closest-equal-element-queries](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3488-closest-equal-element-queries) |
 ## Bit Manipulation
 |  |
@@ -340,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1657-determine-if-two-strings-are-close](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1657-determine-if-two-strings-are-close) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2463-minimum-total-distance-traveled](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2463-minimum-total-distance-traveled) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 ## Linked List
 |  |
 | ------- |
@@ -1078,4 +1082,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1683-invalid-tweets](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1683-invalid-tweets) |
 | [1934-confirmation-rate](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1934-confirmation-rate) |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
+## Geometry
+|  |
+| ------- |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 <!---LeetCode Topics End-->
