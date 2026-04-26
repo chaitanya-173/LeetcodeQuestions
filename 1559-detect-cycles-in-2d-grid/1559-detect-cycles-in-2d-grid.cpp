@@ -25,8 +25,8 @@ public:
                             int nr = r + dr[k];
                             int nc = c + dc[k];
                             
-                            if(nr>=0 && nr<n && nc>=0 && nc<m && grid[nr][nc] == grid[i][j]) {
-                                if(vis[nr][nc] && nr != parr && nc != parc) return true;
+                            if(nr>=0 && nr<n && nc>=0 && nc<m && grid[nr][nc] == grid[r][c]) {
+                                if(vis[nr][nc] && !(nr == parr && nc == parc)) return true;
                                 else if(!vis[nr][nc]) {
                                     q.push({nr, nc, r, c});
                                     vis[nr][nc] = 1;
