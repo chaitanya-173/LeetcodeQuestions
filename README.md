@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Hash Table
 |  |
@@ -440,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2463-minimum-total-distance-traveled](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2463-minimum-total-distance-traveled) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -586,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2643-row-with-maximum-ones](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2643-row-with-maximum-ones) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Sliding Window
 |  |
 | ------- |
