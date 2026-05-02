@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0282-expression-add-operators) |
 | [0368-largest-divisible-subset](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0368-largest-divisible-subset) |
 | [0396-rotate-function](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0396-rotate-function) |
+| [0788-rotated-digits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0788-rotated-digits) |
 | [0923-super-egg-drop](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0923-super-egg-drop) |
 | [1013-fibonacci-number](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1013-fibonacci-number) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1071-greatest-common-divisor-of-strings) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0678-valid-parenthesis-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0788-rotated-digits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0788-rotated-digits) |
 | [0790-domino-and-tromino-tiling](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0790-domino-and-tromino-tiling) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0907-sum-of-subarray-minimums) |
