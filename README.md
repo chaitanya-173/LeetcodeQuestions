@@ -512,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0657-robot-return-to-origin) |
 | [0678-valid-parenthesis-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
+| [0796-rotate-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0812-rotate-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1021-remove-outermost-parentheses) |
@@ -540,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0796-rotate-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0812-rotate-string) |
 ## Backtracking
 |  |
