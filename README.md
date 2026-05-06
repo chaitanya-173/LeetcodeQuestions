@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0739-daily-temperatures) |
 | [0827-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0827-making-a-large-island) |
 | [0846-hand-of-straights](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0846-hand-of-straights) |
 | [0854-making-a-large-island](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0854-making-a-large-island) |
@@ -715,6 +716,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0907-sum-of-subarray-minimums) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -1055,6 +1057,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0402-remove-k-digits) |
 | [0503-next-greater-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0503-next-greater-element-ii) |
+| [0739-daily-temperatures](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/0907-sum-of-subarray-minimums) |
 ## Graph Theory
