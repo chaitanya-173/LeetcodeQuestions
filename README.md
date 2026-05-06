@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [1861-rotating-the-box](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1861-rotating-the-box) |
 | [1901-find-a-peak-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1901-find-a-peak-element-ii) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1048-longest-string-chain](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1048-longest-string-chain) |
 | [1768-merge-strings-alternately](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1768-merge-strings-alternately) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [1861-rotating-the-box](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1861-rotating-the-box) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -601,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1753-path-with-minimum-effort) |
+| [1861-rotating-the-box](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1861-rotating-the-box) |
 | [1901-find-a-peak-element-ii](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1901-find-a-peak-element-ii) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2643-row-with-maximum-ones](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2643-row-with-maximum-ones) |
