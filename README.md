@@ -1148,6 +1148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1789-primary-department-for-each-employee](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1789-primary-department-for-each-employee) |
 | [1907-count-salary-categories](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1907-count-salary-categories) |
 | [1934-confirmation-rate](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1934-confirmation-rate) |
+| [1978-employees-whose-manager-left-the-company](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/1978-employees-whose-manager-left-the-company) |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/chaitanya-173/LeetcodeQuestions/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
 ## Geometry
 |  |
